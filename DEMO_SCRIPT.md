@@ -1,34 +1,59 @@
-# 2–3 minute demo video script
+# Three-minute demo script
 
-Use the precomputed outputs; do not run model inference during the recording. The saved JSON includes source-page text, component source pages, and raw component text.
+Use the existing `five_sample_rerun_final.json`; do not run inference. Keep the JSON open beside Preview so each extracted record can be compared with its source page. The commands below copy PDFs from the archive into `/tmp`; the archive remains unchanged.
 
-## Before recording
+## Prepare the three source PDFs
 
-From the project root, extract the SAT TDP PDF to a temporary path and open it in Preview:
+Run each command from the project root:
 
 ```bash
 unzip -p data.zip "Fresco Coding Challenge (Hardware Sets)/SAT TDP/2025.12.19 - SAT TDP - Project Manual.pdf" > /tmp/sat-tdp-demo.pdf
+```
+
+```bash
+unzip -p data.zip "Fresco Coding Challenge (Hardware Sets)/81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf" > /tmp/bridgeport-demo.pdf
+```
+
+```bash
+unzip -p data.zip "Fresco Coding Challenge (Hardware Sets)/2353 Gerrard Street Shelter/2.02 2535 Gerrard Shelter-Issued for Tender_5-Architectural Specifications.pdf" > /tmp/gerrard-demo.pdf
+```
+
+Open each PDF in Preview as you reach its segment and navigate to the stated PDF page. In `five_sample_rerun_final.json`, use the `samples` array indices below (zero-based) and expand each sample's `llm` object.
+
+## Walkthrough and narration
+
+**0:00–0:25 — Goal and pipeline**  
+Show `data.zip`, then the flow in `SYSTEM_DESIGN.md`. Say: “PyMuPDF reads PDF pages, heuristics find likely hardware sections and set regions, and a local Qwen experiment structures selected sets. The saved results include source-page references and raw text for review.”
+
+**0:25–1:05 — SAT TDP, group 715TW**  
+Open the first PDF:
+
+```bash
 open -a Preview /tmp/sat-tdp-demo.pdf
 ```
 
-Navigate to PDF page **734**. Keep `five_sample_rerun_final.json`, `README.md`, and `SYSTEM_DESIGN.md` ready in the editor.
+Go to page **734**. In the JSON, open `samples[3].llm` (find `"set_number": "715TW"`). Compare the exit-device finish **626** and surface-closer finish **689** with the printed `FINISH` column. Say: “The wrapped catalog text no longer shifts into the finish field.”
 
-## Walkthrough
+**1:05–1:35 — Bridgeport, Heading #1**  
+Open the second PDF:
 
-**0:00–0:25 — Input and goal**  
-Show `data.zip` and `spec.txt`. Say: “The input is a set of construction specification PDFs. The goal is to identify likely hardware sets and preserve component fields with source locations.”
+```bash
+open -a Preview /tmp/bridgeport-demo.pdf
+```
 
-**0:25–0:55 — Pipeline**  
-Show `inspect_hardware_pages.py`, `segment_hardware_sets.py`, and `extract_mvp_llm.py`, then the pipeline diagram/description in `SYSTEM_DESIGN.md`. Say: “The first two stages find candidate pages and set regions. The deterministic sample parser and local Qwen experiment are separate extraction experiments.” Point out that the checked-in outputs are available without a model run.
+Go to page **3**. In the JSON, open `samples[1].llm` (find `"set_number": "Heading #1"`). Show the seven component rows and `mfr: null`. Say: “The schedule does not tie a manufacturer to these rows, so the output leaves manufacturer blank instead of assigning one from the document-wide index.”
 
-**0:55–1:35 — Source PDF**  
-In Preview, show page 734 and the `Hardware Group No. 715TW` schedule. Point to the `QTY`, `DESCRIPTION`, `CATALOG NUMBER`, `FINISH`, and `MFR` columns, especially the exit-device finish `626` and closer finish `689`.
+**1:35–2:05 — 2353 Gerrard Shelter, set AL 01**  
+Open the third PDF:
 
-**1:35–2:15 — JSON and traceability**  
-Open `five_sample_rerun_final.json`. Find `set_number` 715TW, then show its component rows, `source_page: 734`, `raw_component_text`, and saved source-page excerpt. Compare the finish values to the visible PDF columns. Mention that `full_sample_representative_extractions.json` preserves the original 20-sample run.
+```bash
+open -a Preview /tmp/gerrard-demo.pdf
+```
 
-**2:15–2:45 — Results and limits**  
-Show `five_sample_manual_review.md` and `SUBMISSION_SUMMARY.md`. Say: “The small manual review found 31 matching rows out of 31 extracted and 31 of 33 source rows across four countable examples. That is a selected sample only, not corpus-wide accuracy. Known segmentation misses include SJC Well Behavioral and StarHardware.”
+Go to page **165**. In the JSON, open `samples[0].llm` (find `"set_number": "AL 01"`). Show the power-transfer row (`finish: ALM`, `mfr: Hager Companies`) and the exit-device row (`finish: 630`, `mfr: Detex`); then show the code lists on page 164 if time permits. Say: “The complete set identifier and these code meanings are supported by the printed heading, aligned cells, and explicit legends.”
 
-**2:45–3:00 — Close**  
-Show the README run commands and state that local Qwen inference requires Apple Silicon/Metal and the downloaded local model; the precomputed evaluation is viewable without inference.
+**2:05–2:45 — Results and limitations**  
+Show `five_sample_manual_review.md`. Say: “All five outputs are schema-valid, but they are not all fully correct. A manual review matched 31 of 31 extracted rows and found 31 of 33 source rows across four countable reviewed sets: 31/31 row precision and 31/33 row recall. Those figures apply only to those four selected sets; the Gerrard schedule was excluded from the counts because it mixes hardware with coordination entries. Roselle still misses two unquantified rows, and the corpus has known segmentation misses in SJC Well Behavioral and StarHardware. We have not measured corpus-wide accuracy.”
+
+**2:45–2:55 — Close**  
+Point reviewers to `README.md` for setup and commands, and note that these precomputed results can be inspected without running the local model.
