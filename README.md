@@ -1,6 +1,6 @@
 # Hardware-set extraction
 
-This project reads construction specification PDFs from `data.zip`, finds likely hardware schedules and set regions, and uses a local Qwen model to extract structured component records. The saved results cover selected examples; they are not a complete extraction of every hardware set in the archive.
+This project reads construction specification PDFs from `data.zip`, finds likely hardware schedules and set regions, and uses a local Qwen model to extract structured component records. The saved results cover selected examples; they are not a complete extraction of every hardware set in the archive. The input archive is not tracked in this repository; place the supplied `data.zip` in the project root before running the scripts.
 
 ## Setup
 
@@ -44,7 +44,6 @@ The Qwen stage reads the saved `hardware_sets.jsonl` regions, adds source-page c
 | PDF page inspection | `candidate_pages.jsonl`, `candidate_pages.md` |
 | Hardware-set segmentation | `hardware_sections.jsonl`, `hardware_sets.jsonl`, `hardware_set_segmentation_report.md` |
 | Local Qwen structured extraction (six configured sets) | `mvp_llm_extractions.json`, `mvp_llm_comparison.md` |
-| Source-based QA and review | `full_sample_source_qa.jsonl`, `full_sample_evaluation_report.md`, manual-review documents |
 
 The scripts overwrite their default outputs when rerun. Preserve copies if you need earlier runs.
 
@@ -52,18 +51,16 @@ The scripts overwrite their default outputs when rerun. Preserve copies if you n
 
 `extract_sample_project_sets.py` is a deterministic parser for two representative formats: JC Ryan 2 list schedules and Roselle Public Library tables. It produces `sample_hardware_sets.json` and is useful as a review reference; it is not the LLM extraction stage.
 
-The saved outputs let reviewers inspect results without installing MLX-LM or running inference:
+The tracked final output lets reviewers inspect an extraction without installing MLX-LM or running inference:
 
-- [Final focused five-sample JSON](five_sample_rerun_final.json): selected final LLM records with source references and supporting metadata.
-- [Five-sample source review](five_sample_manual_review.md): before/after findings and bounded row-level estimate.
-- [20-sample representative JSON](full_sample_representative_extractions.json) and [full-sample report](full_sample_evaluation_report.md): one representative set from each of 20 segmented PDFs, with source QA limitations.
-- [Generalization review](mvp_generalization_report.md) and [table-layout comparison](mvp_table_structure_report.md): earlier targeted evaluations.
-- [Submission summary](SUBMISSION_SUMMARY.md), [system design](SYSTEM_DESIGN.md), and [demo walkthrough](DEMO_SCRIPT.md).
+- [Final focused five-sample JSON](five_sample_rerun_final.json): selected LLM records with source references and supporting metadata.
+- [Submission summary](SUBMISSION_SUMMARY.md): corpus counts, evaluation results, and limitations.
+- [System design](SYSTEM_DESIGN.md): how the scripts fit together and the current extraction scope.
 
-The five-sample final JSON is a saved run; the current six-set runner does not reproduce that exact selection. The 20-sample and other evaluation files are preserved results, not claims that every set was extracted.
+The five-sample JSON is a saved run; the current six-set runner does not reproduce that exact selection. Detailed 20-sample and source-QA artifacts from earlier evaluations are not included in this repository; their relevant findings are summarized in `SUBMISSION_SUMMARY.md`.
 
 ## Evaluation and limitations
 
-The five-sample manual review matched 31 of 31 extracted component rows and found 31 of 33 source rows across four countable selected sets (row precision 31/31; row recall 31/33, about 94%). This small, selected review is not corpus-wide accuracy. The 20 representative model responses were schema-valid, but schema validity does not establish that their contents are correct or complete.
+The five-sample manual review matched 31 of 31 extracted component rows and found 31 of 33 source rows across four countable selected sets (row precision 31/31; row recall 31/33, about 94%). This small, selected review is not corpus-wide accuracy. In a separate representative run, 20 model responses were schema-valid; schema validity does not establish that their contents are correct or complete.
 
-Segmentation missed searchable schedules in SJC Well Behavioral and StarHardware; Woodridge Public Works remains inconclusive. Of 17,637 pages, 299 had no extractable text; OCR was not used. Complex tables, merged cells, page continuations, unquantified rows, and manufacturer/product/finish mapping remain unreliable. There is no comprehensive labeled reference set, so corpus-wide precision and recall are unknown.
+Segmentation missed searchable schedules in SJC Well Behavioral and StarHardware; Woodridge Public Works remains inconclusive. Of 17,637 pages, 17,338 had extractable text and 299 did not; OCR was not used. Complex tables, merged cells, page continuations, unquantified rows, and manufacturer/product/finish mapping remain unreliable. There is no comprehensive labeled reference set, so corpus-wide precision and recall are unknown.
