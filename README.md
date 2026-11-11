@@ -2,6 +2,9 @@
 
 This project reads construction specification PDFs from `data.zip`, finds likely hardware schedules and set regions, and uses a local Qwen model to extract structured component records. The saved results cover selected examples; they are not a complete extraction of every hardware set in the archive. The input archive is not tracked in this repository; place the supplied `data.zip` in the project root before running the scripts.
 
+## Demo Video
+[Youtube Link](https://www.youtube.com/watch?v=p4W3iosXEY4)
+
 ## Setup
 
 The PDF inspection and segmentation stages require Python 3.10+ and PyMuPDF. The tested environment used Python 3.12.1 and PyMuPDF 1.28.2. From the project root:
