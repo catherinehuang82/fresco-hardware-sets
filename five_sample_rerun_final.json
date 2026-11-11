@@ -1,0 +1,1937 @@
+{
+  "experiment": "five representative samples rerun with final prompt/layout and source-supported field checks",
+  "baseline_file": "full_sample_representative_extractions.json",
+  "local_model": "/Users/catherinehuang/Desktop/Job Applications/Fresco/.models/Qwen3-4B-Instruct-2507-4bit",
+  "inference_mode": "local only; HF_HUB_OFFLINE=1; TRANSFORMERS_OFFLINE=1",
+  "samples": [
+    {
+      "project": "Fresco Coding Challenge (Hardware Sets)/2353 Gerrard Street Shelter/2.02 2535 Gerrard Shelter-Issued for Tender_5-Architectural Specifications.pdf",
+      "set_id": "AL",
+      "source_pdf": "Fresco Coding Challenge (Hardware Sets)/2353 Gerrard Street Shelter/2.02 2535 Gerrard Shelter-Issued for Tender_5-Architectural Specifications.pdf",
+      "source_pages": {
+        "164": "2535 Gerrard Shelter                                                                                   08 71 00 – Door Hardware \n105220 \n \nJan 30, 2026 \nPage 18 of 36\n3.06 HARDWARE SET SCHEDULE \n \nA. Door hardware items have been placed in sets which are intended to be a guide of design, grade, quality, function, operation, \nand performance. \n1. Review products that may require mounting accessories to meet door, frame, and swing conditions as these final details \nvary from manufacturer to manufacturer and provide as required. \n2. Where additional items of hardware are required for completion of the Work, a written statement of such omission, error, \nor other discrepancy is required to be submitted to the Architect, prior to bid date for clarification via an addendum. \n3. Abbreviations listed below do not appear in the manufacturer’s literature, for any other abbreviations refer to \nmanufacturer’s literature.: \na. \nLDW = Less than Door Width \nb. LAR = Length as Required \nc. \nQTY = Quantity \nd. CTC = Centerline to Centerline \ne. \nBTB = Back-to-Back mounting \nf. \nFEC = Flush End Cap \n \nB. Finish List \nCode\nDescription\n630\nSatin Stainless Steel\nAL\nAluminum\nALM\nSprayed Aluminum\nBLACK\nBlack\nBLU\nBlue\nCLR\nClear Anodized\nGREY\nGrey\nLS\nLuma Sheen\nMIL\nMill Finish\nNo Finish \nNo finish \nS\nCharcoal\nUS10B\nDull Bronze, Oxidized and Oil Rubbed\nUS26D\nChromium Plated, Dull\nUS32D\nStainless Steel, Dull\nUSP\nSpray Primed\n \nC. Manufacturer List \nCode\nName \nCMND\nCommand Access\nDE\nDetex \nHA\nHager Companies\n \nD. Option List \nCode\nDescription\n2-649-0166 \nFire Latch Kit\nADA Turn\nADA Thumb Turn\nDLY\nDelayed Action\nEC2\nFlush Endcap\nEPT/PREP\nPower Transfer Prep - Concealed Models\nER EX\nElectric Latch Retraction\nETW\nElectric Through Wires\nH\nHandicap Clearance (3\")\nMLR \nMotor Driven Electric Latch Retraction\nMLRX\nMotor Driven Electric Latch Retraction with Request to Exit\nNRP\nNon-Removable Pin\nSFIC\nInterchangeable Core Cyl. (Less Core)\n \nE. Hardware Sets",
+        "165": "2535 Gerrard Shelter \n105220 \n \nJan 30, 2026 \nPage 19 of 36\n \nSet #AL 01 \nDoors: D101A, D149A, D153A\n1 Continuous Hinge(s) \n780-112HD x LAR EPT Prep\nCLR\nHA\n1 Power Transfer(s)\n2-679-0623\nALM \nHA\n1 Exit Device\n40-CBK ER EX EC2\n630\nDE\n1 Mortise Cylinder(s)\n3902 x LAR\nUS26D\nHA\n1 Construction Core(s)\n3982-BLU\nBLU\nHA\n1 SFIC Core(s) \n3969-C\nUS26D\nHA\n1 Offset Door Pull(s)\n910P 36\nUS10B\nHA\n1 Overhead Stop(s)\n7016 SRF\nUS32D\nHA\n1 Single Operator\n8318 Push\nALM \nHA\n1 Thermally Broken Threshold \n420S x LAR\nMIL\nHA\n1 Weatherstrip\nBy Frame Mfr./Supplier \n1 Sweep(s)\n750S N x LAR\nCLR\nHA\n1 Rain Drip\n810S x LAR\nMIL\nHA\n1 Door Position Switch(es)\n2-679-0626\nHA\n2 Actuator(s)\n8228-02H/00\nUS32D\nHA\n1 Reader/Keypad\nBy Security Provider\n1 Intercom\nBy Security Provider\n1 Remote Exit Button\nBy Security Provider\n1 Power Supply\nBy Security Provider\n1 Wiring Diagrams\nWiring Diagrams\n \nOperational Description: \n \nDoor is normally closed and locked.  \nValid credential, signal from intercom, or signal from remote button allows entry and activates exterior actuator; pushing \nactuator opens the door. \nFree egress at all times; pushing interior actuator opens the door.  \nUpon loss of power, door to remain locked and operator is disabled.  \nDoor is monitored by the access control system.\n \nSet #01 \nDoors: OH115, OH122, OH125\n1 Hardware \nby Door Mfr./Supplier",
+        "166": "2535 Gerrard Shelter \n105220 \n \nJan 30, 2026 \nPage 20 of 36\nSet #02 \nDoors: D118A\n1 Continuous Hinge(s) \n780-111HD x LAR\nCLR\nHA\n1 Continuous Hinge(s) \n780-111HD x LAR EPT Prep\nCLR\nHA\n1 Power Transfer(s)\n2-679-0623\nALM \nHA\n1 Automatic Flush Bolt Set\n292D\nUS32D\nHA\n1 Dust Proof Strike\n280X\nUS26D\nHA\n1 Exit Device(s)\n4501 M MLRX FEC\nUS32D\nHA\n1 Rim Cylinder(s)\n3901 SFIC\nUS26D\nHA\n1 Construction Core(s)\n3982-BLU\nBLU\nHA\n1 SFIC Core(s) \n3969-C\nUS26D\nHA\n1 Door Pull(s)\nH 12J \nUS32D\nHA\n1 Coordinator\n297D x LAR\nBLACK\nHA\n2 Mounting Bracket(s) \n297B\nBLACK\nHA\n1 Overhead Stop(s)\n7016 SRF\nUS32D\nHA\nActive Leaf\n1 Closer(s)\n5200\nALM \nHA\nTop Jamb Mount\n1 Single Operator\n8318 Push\nALM \nHA\n2 Kick Plate(s)\n190S 10\" x 1\" LDW\nUS32D\nHA\n1 Floor Stop(s)\n267F\nUS26D\nHA\n1 Thermally Broken Threshold \n421S x LAR\nMIL\nHA\n1 Seal\n726 x LAR\nS\nHA\n1 Astragal(s)\n835S x LAR\nUSP\nHA\n1 Astragal Seal(s)\n726 x LAR\nS\nHA\n2 Sweep(s)\n750S N x LAR\nCLR\nHA\n1 Rain Drip\n810S x LAR\nMIL\nHA\n2 Actuator(s)\n8228-02H/00\nUS32D\nHA\n2 Door Position Switch(es)\n2-679-0626\nHA\n1 Reader/Keypad\nBy Security Provider\n1 Intercom\nBy Security Provider\n1 Remote Exit Button\nBy Security Provider\n1 Power Supply\nBy Security Provider\n1 Wiring Diagrams\nWiring Diagrams\n \nOperational Description: \n \nDoors are normally closed and locked.  \nValid credential, signal from intercom, or signal from remote button allows entry and activates exterior actuator; pushing \nactuator opens the door. \nFree egress at all times; pushing interior actuator opens the door.  \nUpon loss of power, doors are to remain locked and operator is disabled.  \nDoors are monitored by the access control system."
+      },
+      "source_excerpt": "Set #AL 01 \nDoors: D101A, D149A, D153A\n1 Continuous Hinge(s) \n780-112HD x LAR EPT Prep\nCLR\nHA\n1 Power Transfer(s)\n2-679-0623\nALM \nHA\n1 Exit Device\n40-CBK ER EX EC2\n630\nDE\n1 Mortise Cylinder(s)\n3902 x LAR\nUS26D\nHA\n1 Construction Core(s)\n3982-BLU\nBLU\nHA\n1 SFIC Core(s) \n3969-C\nUS26D\nHA\n1 Offset Door Pull(s)\n910P 36\nUS10B\nHA\n1 Overhead Stop(s)\n7016 SRF\nUS32D\nHA\n1 Single Operator\n8318 Push\nALM \nHA\n1 Thermally Broken Threshold \n420S x LAR\nMIL\nHA\n1 Weatherstrip\nBy Frame Mfr./Supplier \n1 Sweep(s)\n750S N x LAR\nCLR\nHA\n1 Rain Drip\n810S x LAR\nMIL\nHA\n1 Door Position Switch(es)\n2-679-0626\nHA\n2 Actuator(s)\n8228-02H/00\nUS32D\nHA\n1 Reader/Keypad\nBy Security Provider\n1 Intercom\nBy Security Provider\n1 Remote Exit Button\nBy Security Provider\n1 Power Supply\nBy Security Provider\n1 Wiring Diagrams\nWiring Diagrams\n \nOperational Description: \n \nDoor is normally closed and locked.  \nValid credential, signal from intercom, or signal from remote button allows entry and activates exterior actuator; pushing \nactuator opens the door. \nFree egress at all times; pushing interior actuator opens the door.  \nUpon loss of power, door to remain locked and operator is disabled.  \nDoor is monitored by the access control system.",
+      "llm": {
+        "set_number": "AL 01",
+        "description": "Set #AL 01",
+        "door_references": [
+          "D101A",
+          "D149A",
+          "D153A"
+        ],
+        "source_pdf": "Fresco Coding Challenge (Hardware Sets)/2353 Gerrard Street Shelter/2.02 2535 Gerrard Shelter-Issued for Tender_5-Architectural Specifications.pdf",
+        "location": {
+          "pages": [
+            165
+          ],
+          "line_ranges": [
+            {
+              "page_number": 165,
+              "line_start": 7,
+              "line_end": 85
+            }
+          ]
+        },
+        "components": [
+          {
+            "qty": 1,
+            "description": "Continuous Hinge(s)",
+            "product": "780-112HD x LAR EPT Prep",
+            "catalog_number": null,
+            "mfr": "Hager Companies",
+            "finish": "CLR",
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Continuous Hinge(s) 780-112HD x LAR EPT Prep CLR HA"
+          },
+          {
+            "qty": 1,
+            "description": "Power Transfer(s)",
+            "product": "2-679-0623",
+            "catalog_number": null,
+            "mfr": "Hager Companies",
+            "finish": "ALM",
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Power Transfer(s) 2-679-0623 ALM HA"
+          },
+          {
+            "qty": 1,
+            "description": "Exit Device",
+            "product": "40-CBK ER EX EC2",
+            "catalog_number": null,
+            "mfr": "Detex",
+            "finish": "630",
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Exit Device 40-CBK ER EX EC2 630 DE"
+          },
+          {
+            "qty": 1,
+            "description": "Mortise Cylinder(s)",
+            "product": "3902 x LAR",
+            "catalog_number": null,
+            "mfr": "Hager Companies",
+            "finish": "US26D",
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Mortise Cylinder(s) 3902 x LAR US26D HA"
+          },
+          {
+            "qty": 1,
+            "description": "Construction Core(s)",
+            "product": "3982-BLU",
+            "catalog_number": null,
+            "mfr": "Hager Companies",
+            "finish": "BLU",
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Construction Core(s) 3982-BLU BLU HA"
+          },
+          {
+            "qty": 1,
+            "description": "SFIC Core(s)",
+            "product": "3969-C",
+            "catalog_number": null,
+            "mfr": "Hager Companies",
+            "finish": "US26D",
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 SFIC Core(s) 3969-C US26D HA"
+          },
+          {
+            "qty": 1,
+            "description": "Offset Door Pull(s)",
+            "product": "910P 36",
+            "catalog_number": null,
+            "mfr": "Hager Companies",
+            "finish": "US10B",
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Offset Door Pull(s) 910P 36 US10B HA"
+          },
+          {
+            "qty": 1,
+            "description": "Overhead Stop(s)",
+            "product": "7016 SRF",
+            "catalog_number": null,
+            "mfr": "Hager Companies",
+            "finish": "US32D",
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Overhead Stop(s) 7016 SRF US32D HA"
+          },
+          {
+            "qty": 1,
+            "description": "Single Operator",
+            "product": "8318 Push",
+            "catalog_number": null,
+            "mfr": "Hager Companies",
+            "finish": "ALM",
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Single Operator 8318 Push ALM HA"
+          },
+          {
+            "qty": 1,
+            "description": "Thermally Broken Threshold",
+            "product": "420S x LAR",
+            "catalog_number": null,
+            "mfr": "Hager Companies",
+            "finish": "MIL",
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Thermally Broken Threshold 420S x LAR MIL HA"
+          },
+          {
+            "qty": 1,
+            "description": "Weatherstrip",
+            "product": "By Frame Mfr./Supplier",
+            "catalog_number": null,
+            "mfr": null,
+            "finish": null,
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Weatherstrip By Frame Mfr./Supplier"
+          },
+          {
+            "qty": 1,
+            "description": "Sweep(s)",
+            "product": "750S N x LAR",
+            "catalog_number": null,
+            "mfr": "Hager Companies",
+            "finish": "CLR",
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Sweep(s) 750S N x LAR CLR HA"
+          },
+          {
+            "qty": 1,
+            "description": "Rain Drip",
+            "product": "810S x LAR",
+            "catalog_number": null,
+            "mfr": "Hager Companies",
+            "finish": "MIL",
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Rain Drip 810S x LAR MIL HA"
+          },
+          {
+            "qty": 1,
+            "description": "Door Position Switch(es)",
+            "product": "2-679-0626",
+            "catalog_number": null,
+            "mfr": "Hager Companies",
+            "finish": null,
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Door Position Switch(es) 2-679-0626 HA"
+          },
+          {
+            "qty": 2,
+            "description": "Actuator(s)",
+            "product": "8228-02H/00",
+            "catalog_number": null,
+            "mfr": "Hager Companies",
+            "finish": "US32D",
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "2 Actuator(s) 8228-02H/00 US32D HA"
+          },
+          {
+            "qty": 1,
+            "description": "Reader/Keypad",
+            "product": "By Security Provider",
+            "catalog_number": null,
+            "mfr": null,
+            "finish": null,
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Reader/Keypad By Security Provider"
+          },
+          {
+            "qty": 1,
+            "description": "Intercom",
+            "product": "By Security Provider",
+            "catalog_number": null,
+            "mfr": null,
+            "finish": null,
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Intercom By Security Provider"
+          },
+          {
+            "qty": 1,
+            "description": "Remote Exit Button",
+            "product": "By Security Provider",
+            "catalog_number": null,
+            "mfr": null,
+            "finish": null,
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Remote Exit Button By Security Provider"
+          },
+          {
+            "qty": 1,
+            "description": "Power Supply",
+            "product": "By Security Provider",
+            "catalog_number": null,
+            "mfr": null,
+            "finish": null,
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Power Supply By Security Provider"
+          },
+          {
+            "qty": 1,
+            "description": "Wiring Diagrams",
+            "product": "Wiring Diagrams",
+            "catalog_number": null,
+            "mfr": null,
+            "finish": null,
+            "notes": null,
+            "source_page": 165,
+            "raw_component_text": "1 Wiring Diagrams Wiring Diagrams"
+          }
+        ],
+        "notes": null,
+        "uncertainty_note": null,
+        "extraction_status": "complete",
+        "confidence": "high",
+        "source_format": "textual layout with positional components"
+      },
+      "llm_status": "valid JSON and schema",
+      "attempts": [
+        {
+          "attempt": 1,
+          "max_tokens": 4000,
+          "validation_status": "valid",
+          "raw_response": "{\n  \"set_number\": \"AL\",\n  \"description\": \"Set #AL 01\",\n  \"door_references\": [\n    \"D101A\",\n    \"D149A\",\n    \"D153A\"\n  ],\n  \"source_pdf\": \"Fresco Coding Challenge (Hardware Sets)/2353 Gerrard Street Shelter/2.02 2535 Gerrard Shelter-Issued for Tender_5-Architectural Specifications.pdf\",\n  \"location\": {\n    \"pages\": [\n      165\n    ],\n    \"line_ranges\": [\n      {\n        \"page_number\": 165,\n        \"line_start\": 7,\n        \"line_end\": 85\n      }\n    ]\n  },\n  \"components\": [\n    {\n      \"qty\": 1,\n      \"description\": \"Continuous Hinge(s)\",\n      \"product\": \"780-112HD x LAR EPT Prep\",\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": \"CLR\",\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Continuous Hinge(s) 780-112HD x LAR EPT Prep CLR HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Power Transfer(s)\",\n      \"product\": \"2-679-0623\",\n      \"catalog_number\": null,\n      \"mfr\": \"ALM\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Power Transfer(s) 2-679-0623 ALM HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Exit Device\",\n      \"product\": \"40-CBK ER EX EC2\",\n      \"catalog_number\": null,\n      \"mfr\": \"DE\",\n      \"finish\": \"630\",\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Exit Device 40-CBK ER EX EC2 630 DE\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Mortise Cylinder(s)\",\n      \"product\": \"3902 x LAR\",\n      \"catalog_number\": null,\n      \"mfr\": \"US26D\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Mortise Cylinder(s) 3902 x LAR US26D HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Construction Core(s)\",\n      \"product\": \"3982-BLU\",\n      \"catalog_number\": null,\n      \"mfr\": \"BLU\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Construction Core(s) 3982-BLU BLU HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"SFIC Core(s)\",\n      \"product\": \"3969-C\",\n      \"catalog_number\": null,\n      \"mfr\": \"US26D\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 SFIC Core(s) 3969-C US26D HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Offset Door Pull(s)\",\n      \"product\": \"910P 36\",\n      \"catalog_number\": null,\n      \"mfr\": \"US10B\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Offset Door Pull(s) 910P 36 US10B HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Overhead Stop(s)\",\n      \"product\": \"7016 SRF\",\n      \"catalog_number\": null,\n      \"mfr\": \"US32D\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Overhead Stop(s) 7016 SRF US32D HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Single Operator\",\n      \"product\": \"8318 Push\",\n      \"catalog_number\": null,\n      \"mfr\": \"ALM\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Single Operator 8318 Push ALM HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Thermally Broken Threshold\",\n      \"product\": \"420S x LAR\",\n      \"catalog_number\": null,\n      \"mfr\": \"MIL\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Thermally Broken Threshold 420S x LAR MIL HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Weatherstrip\",\n      \"product\": \"By Frame Mfr./Supplier\",\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Weatherstrip By Frame Mfr./Supplier\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Sweep(s)\",\n      \"product\": \"750S N x LAR\",\n      \"catalog_number\": null,\n      \"mfr\": \"CLR\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Sweep(s) 750S N x LAR CLR HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Rain Drip\",\n      \"product\": \"810S x LAR\",\n      \"catalog_number\": null,\n      \"mfr\": \"MIL\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Rain Drip 810S x LAR MIL HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Door Position Switch(es)\",\n      \"product\": \"2-679-0626\",\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Door Position Switch(es) 2-679-0626 HA\"\n    },\n    {\n      \"qty\": 2,\n      \"description\": \"Actuator(s)\",\n      \"product\": \"8228-02H/00\",\n      \"catalog_number\": null,\n      \"mfr\": \"US32D\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"2 Actuator(s) 8228-02H/00 US32D HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Reader/Keypad\",\n      \"product\": \"By Security Provider\",\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Reader/Keypad By Security Provider\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Intercom\",\n      \"product\": \"By Security Provider\",\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Intercom By Security Provider\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Remote Exit Button\",\n      \"product\": \"By Security Provider\",\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Remote Exit Button By Security Provider\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Power Supply\",\n      \"product\": \"By Security Provider\",\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Power Supply By Security Provider\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Wiring Diagrams\",\n      \"product\": \"Wiring Diagrams\",\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Wiring Diagrams Wiring Diagrams\"\n    }\n  ],\n  \"notes\": null,\n  \"uncertainty_note\": null,\n  \"extraction_status\": \"complete\",\n  \"confidence\": \"high\",\n  \"source_format\": \"textual layout with positional components\"\n}",
+          "error": null
+        }
+      ],
+      "raw_model_output": "{\n  \"set_number\": \"AL\",\n  \"description\": \"Set #AL 01\",\n  \"door_references\": [\n    \"D101A\",\n    \"D149A\",\n    \"D153A\"\n  ],\n  \"source_pdf\": \"Fresco Coding Challenge (Hardware Sets)/2353 Gerrard Street Shelter/2.02 2535 Gerrard Shelter-Issued for Tender_5-Architectural Specifications.pdf\",\n  \"location\": {\n    \"pages\": [\n      165\n    ],\n    \"line_ranges\": [\n      {\n        \"page_number\": 165,\n        \"line_start\": 7,\n        \"line_end\": 85\n      }\n    ]\n  },\n  \"components\": [\n    {\n      \"qty\": 1,\n      \"description\": \"Continuous Hinge(s)\",\n      \"product\": \"780-112HD x LAR EPT Prep\",\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": \"CLR\",\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Continuous Hinge(s) 780-112HD x LAR EPT Prep CLR HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Power Transfer(s)\",\n      \"product\": \"2-679-0623\",\n      \"catalog_number\": null,\n      \"mfr\": \"ALM\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Power Transfer(s) 2-679-0623 ALM HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Exit Device\",\n      \"product\": \"40-CBK ER EX EC2\",\n      \"catalog_number\": null,\n      \"mfr\": \"DE\",\n      \"finish\": \"630\",\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Exit Device 40-CBK ER EX EC2 630 DE\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Mortise Cylinder(s)\",\n      \"product\": \"3902 x LAR\",\n      \"catalog_number\": null,\n      \"mfr\": \"US26D\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Mortise Cylinder(s) 3902 x LAR US26D HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Construction Core(s)\",\n      \"product\": \"3982-BLU\",\n      \"catalog_number\": null,\n      \"mfr\": \"BLU\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Construction Core(s) 3982-BLU BLU HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"SFIC Core(s)\",\n      \"product\": \"3969-C\",\n      \"catalog_number\": null,\n      \"mfr\": \"US26D\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 SFIC Core(s) 3969-C US26D HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Offset Door Pull(s)\",\n      \"product\": \"910P 36\",\n      \"catalog_number\": null,\n      \"mfr\": \"US10B\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Offset Door Pull(s) 910P 36 US10B HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Overhead Stop(s)\",\n      \"product\": \"7016 SRF\",\n      \"catalog_number\": null,\n      \"mfr\": \"US32D\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Overhead Stop(s) 7016 SRF US32D HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Single Operator\",\n      \"product\": \"8318 Push\",\n      \"catalog_number\": null,\n      \"mfr\": \"ALM\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Single Operator 8318 Push ALM HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Thermally Broken Threshold\",\n      \"product\": \"420S x LAR\",\n      \"catalog_number\": null,\n      \"mfr\": \"MIL\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Thermally Broken Threshold 420S x LAR MIL HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Weatherstrip\",\n      \"product\": \"By Frame Mfr./Supplier\",\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Weatherstrip By Frame Mfr./Supplier\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Sweep(s)\",\n      \"product\": \"750S N x LAR\",\n      \"catalog_number\": null,\n      \"mfr\": \"CLR\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Sweep(s) 750S N x LAR CLR HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Rain Drip\",\n      \"product\": \"810S x LAR\",\n      \"catalog_number\": null,\n      \"mfr\": \"MIL\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Rain Drip 810S x LAR MIL HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Door Position Switch(es)\",\n      \"product\": \"2-679-0626\",\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Door Position Switch(es) 2-679-0626 HA\"\n    },\n    {\n      \"qty\": 2,\n      \"description\": \"Actuator(s)\",\n      \"product\": \"8228-02H/00\",\n      \"catalog_number\": null,\n      \"mfr\": \"US32D\",\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"2 Actuator(s) 8228-02H/00 US32D HA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Reader/Keypad\",\n      \"product\": \"By Security Provider\",\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Reader/Keypad By Security Provider\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Intercom\",\n      \"product\": \"By Security Provider\",\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Intercom By Security Provider\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Remote Exit Button\",\n      \"product\": \"By Security Provider\",\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Remote Exit Button By Security Provider\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Power Supply\",\n      \"product\": \"By Security Provider\",\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Power Supply By Security Provider\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Wiring Diagrams\",\n      \"product\": \"Wiring Diagrams\",\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": null,\n      \"notes\": null,\n      \"source_page\": 165,\n      \"raw_component_text\": \"1 Wiring Diagrams Wiring Diagrams\"\n    }\n  ],\n  \"notes\": null,\n  \"uncertainty_note\": null,\n  \"extraction_status\": \"complete\",\n  \"confidence\": \"high\",\n  \"source_format\": \"textual layout with positional components\"\n}",
+      "validation_status": "valid",
+      "retry_count": 0,
+      "error_details": [],
+      "differences": [
+        "set-level description: deterministic=None; LLM='Set #AL 01'",
+        "component count: deterministic=9; LLM=20",
+        "component description 'actuator opens the door.': deterministic count=1; LLM count=0",
+        "actuator(s) catalog_number: deterministic='8228-02H/00'; LLM='US32D'",
+        "actuator(s) mfr: deterministic=None; LLM='HA'",
+        "actuator(s) finish: deterministic=None; LLM='US32D'",
+        "component description 'construction core(s)': deterministic count=0; LLM count=1",
+        "continuous hinge(s) catalog_number: deterministic='780-112HD x LAR EPT Prep'; LLM=None",
+        "continuous hinge(s) finish: deterministic=None; LLM='CLR'",
+        "component description 'door position switch(es)': deterministic count=0; LLM count=1",
+        "exit device catalog_number: deterministic='40-CBK ER EX EC2'; LLM='630'",
+        "exit device mfr: deterministic=None; LLM='DE'",
+        "exit device finish: deterministic=None; LLM='630'",
+        "component description 'intercom': deterministic count=0; LLM count=1",
+        "mortise cylinder(s) catalog_number: deterministic='3902 x LAR'; LLM='US26D'",
+        "mortise cylinder(s) mfr: deterministic=None; LLM='HA'",
+        "mortise cylinder(s) finish: deterministic=None; LLM='US26D'",
+        "offset door pull(s) catalog_number: deterministic='910P 36'; LLM='US10B'",
+        "offset door pull(s) mfr: deterministic=None; LLM='HA'",
+        "offset door pull(s) finish: deterministic=None; LLM='US10B'",
+        "overhead stop(s) catalog_number: deterministic='7016 SRF'; LLM='US32D'",
+        "overhead stop(s) mfr: deterministic=None; LLM='HA'",
+        "overhead stop(s) finish: deterministic=None; LLM='US32D'",
+        "component description 'power supply': deterministic count=0; LLM count=1",
+        "power transfer(s) catalog_number: deterministic='2-679-0623'; LLM=None",
+        "power transfer(s) mfr: deterministic=None; LLM='ALM'",
+        "power transfer(s) finish: deterministic=None; LLM='HA'",
+        "component description 'rain drip': deterministic count=0; LLM count=1",
+        "component description 'reader/keypad': deterministic count=0; LLM count=1",
+        "component description 'remote exit button': deterministic count=0; LLM count=1",
+        "component description 'sfic core(s)': deterministic count=0; LLM count=1",
+        "component description 'single operator': deterministic count=0; LLM count=1",
+        "sweep(s) catalog_number: deterministic='750S N x LAR'; LLM='CLR'",
+        "sweep(s) mfr: deterministic=None; LLM='HA'",
+        "sweep(s) finish: deterministic=None; LLM='CLR'",
+        "component description 'thermally broken threshold': deterministic count=0; LLM count=1",
+        "component description 'weatherstrip': deterministic count=0; LLM count=1",
+        "component description 'wiring diagrams': deterministic count=0; LLM count=1"
+      ],
+      "layout_evidence": [
+        {
+          "page_number": 165,
+          "method": "PyMuPDF word bounding boxes grouped into visual lines and x-position cells",
+          "rows": [
+            {
+              "y": 80.0,
+              "cells": [
+                {
+                  "x_start": 38.9,
+                  "raw_text": "Set #AL 01"
+                }
+              ],
+              "raw_text": "Set #AL 01"
+            },
+            {
+              "y": 102.4,
+              "cells": [
+                {
+                  "x_start": 60.5,
+                  "raw_text": "Doors: D101A, D149A, D153A"
+                }
+              ],
+              "raw_text": "Doors: D101A, D149A, D153A"
+            },
+            {
+              "y": 118.1,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Continuous Hinge(s)"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "780-112HD x LAR EPT Prep"
+                },
+                {
+                  "x_start": 481.7,
+                  "raw_text": "CLR"
+                },
+                {
+                  "x_start": 535.7,
+                  "raw_text": "HA"
+                }
+              ],
+              "raw_text": "1 Continuous Hinge(s) 780-112HD x LAR EPT Prep CLR HA"
+            },
+            {
+              "y": 129.6,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Power Transfer(s)"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "2-679-0623"
+                },
+                {
+                  "x_start": 481.7,
+                  "raw_text": "ALM"
+                },
+                {
+                  "x_start": 535.7,
+                  "raw_text": "HA"
+                }
+              ],
+              "raw_text": "1 Power Transfer(s) 2-679-0623 ALM HA"
+            },
+            {
+              "y": 141.1,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Exit Device"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "40-CBK ER EX EC2"
+                },
+                {
+                  "x_start": 481.7,
+                  "raw_text": "630"
+                },
+                {
+                  "x_start": 535.7,
+                  "raw_text": "DE"
+                }
+              ],
+              "raw_text": "1 Exit Device 40-CBK ER EX EC2 630 DE"
+            },
+            {
+              "y": 152.6,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Mortise Cylinder(s)"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "3902 x LAR"
+                },
+                {
+                  "x_start": 481.7,
+                  "raw_text": "US26D"
+                },
+                {
+                  "x_start": 535.7,
+                  "raw_text": "HA"
+                }
+              ],
+              "raw_text": "1 Mortise Cylinder(s) 3902 x LAR US26D HA"
+            },
+            {
+              "y": 164.2,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Construction Core(s)"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "3982-BLU"
+                },
+                {
+                  "x_start": 481.7,
+                  "raw_text": "BLU"
+                },
+                {
+                  "x_start": 535.7,
+                  "raw_text": "HA"
+                }
+              ],
+              "raw_text": "1 Construction Core(s) 3982-BLU BLU HA"
+            },
+            {
+              "y": 175.6,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 SFIC Core(s)"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "3969-C"
+                },
+                {
+                  "x_start": 481.7,
+                  "raw_text": "US26D"
+                },
+                {
+                  "x_start": 535.7,
+                  "raw_text": "HA"
+                }
+              ],
+              "raw_text": "1 SFIC Core(s) 3969-C US26D HA"
+            },
+            {
+              "y": 187.1,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Offset Door Pull(s)"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "910P 36"
+                },
+                {
+                  "x_start": 481.7,
+                  "raw_text": "US10B"
+                },
+                {
+                  "x_start": 535.7,
+                  "raw_text": "HA"
+                }
+              ],
+              "raw_text": "1 Offset Door Pull(s) 910P 36 US10B HA"
+            },
+            {
+              "y": 198.6,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Overhead Stop(s)"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "7016 SRF"
+                },
+                {
+                  "x_start": 481.7,
+                  "raw_text": "US32D"
+                },
+                {
+                  "x_start": 535.7,
+                  "raw_text": "HA"
+                }
+              ],
+              "raw_text": "1 Overhead Stop(s) 7016 SRF US32D HA"
+            },
+            {
+              "y": 210.1,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Single Operator"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "8318 Push"
+                },
+                {
+                  "x_start": 481.7,
+                  "raw_text": "ALM"
+                },
+                {
+                  "x_start": 535.7,
+                  "raw_text": "HA"
+                }
+              ],
+              "raw_text": "1 Single Operator 8318 Push ALM HA"
+            },
+            {
+              "y": 221.6,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Thermally Broken Threshold"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "420S x LAR"
+                },
+                {
+                  "x_start": 481.7,
+                  "raw_text": "MIL"
+                },
+                {
+                  "x_start": 535.7,
+                  "raw_text": "HA"
+                }
+              ],
+              "raw_text": "1 Thermally Broken Threshold 420S x LAR MIL HA"
+            },
+            {
+              "y": 233.2,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Weatherstrip"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "By Frame Mfr./Supplier"
+                }
+              ],
+              "raw_text": "1 Weatherstrip By Frame Mfr./Supplier"
+            },
+            {
+              "y": 244.6,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Sweep(s)"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "750S N x LAR"
+                },
+                {
+                  "x_start": 481.7,
+                  "raw_text": "CLR"
+                },
+                {
+                  "x_start": 535.7,
+                  "raw_text": "HA"
+                }
+              ],
+              "raw_text": "1 Sweep(s) 750S N x LAR CLR HA"
+            },
+            {
+              "y": 256.1,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Rain Drip"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "810S x LAR"
+                },
+                {
+                  "x_start": 481.7,
+                  "raw_text": "MIL"
+                },
+                {
+                  "x_start": 535.7,
+                  "raw_text": "HA"
+                }
+              ],
+              "raw_text": "1 Rain Drip 810S x LAR MIL HA"
+            },
+            {
+              "y": 267.6,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Door Position Switch(es)"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "2-679-0626"
+                },
+                {
+                  "x_start": 535.7,
+                  "raw_text": "HA"
+                }
+              ],
+              "raw_text": "1 Door Position Switch(es) 2-679-0626 HA"
+            },
+            {
+              "y": 279.1,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "2 Actuator(s)"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "8228-02H/00"
+                },
+                {
+                  "x_start": 481.7,
+                  "raw_text": "US32D"
+                },
+                {
+                  "x_start": 535.7,
+                  "raw_text": "HA"
+                }
+              ],
+              "raw_text": "2 Actuator(s) 8228-02H/00 US32D HA"
+            },
+            {
+              "y": 290.6,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Reader/Keypad"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "By Security Provider"
+                }
+              ],
+              "raw_text": "1 Reader/Keypad By Security Provider"
+            },
+            {
+              "y": 302.2,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Intercom"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "By Security Provider"
+                }
+              ],
+              "raw_text": "1 Intercom By Security Provider"
+            },
+            {
+              "y": 313.6,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Remote Exit Button"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "By Security Provider"
+                }
+              ],
+              "raw_text": "1 Remote Exit Button By Security Provider"
+            },
+            {
+              "y": 325.1,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Power Supply"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "By Security Provider"
+                }
+              ],
+              "raw_text": "1 Power Supply By Security Provider"
+            },
+            {
+              "y": 336.6,
+              "cells": [
+                {
+                  "x_start": 65.9,
+                  "raw_text": "1 Wiring Diagrams"
+                },
+                {
+                  "x_start": 211.7,
+                  "raw_text": "Wiring Diagrams"
+                }
+              ],
+              "raw_text": "1 Wiring Diagrams Wiring Diagrams"
+            },
+            {
+              "y": 352.4,
+              "cells": [
+                {
+                  "x_start": 76.7,
+                  "raw_text": "Operational Description:"
+                }
+              ],
+              "raw_text": "Operational Description:"
+            },
+            {
+              "y": 375.4,
+              "cells": [
+                {
+                  "x_start": 76.7,
+                  "raw_text": "Door is normally closed and locked."
+                }
+              ],
+              "raw_text": "Door is normally closed and locked."
+            },
+            {
+              "y": 386.9,
+              "cells": [
+                {
+                  "x_start": 76.7,
+                  "raw_text": "Valid credential, signal from intercom, or signal from remote button allows entry and activates exterior actuator; pushing"
+                }
+              ],
+              "raw_text": "Valid credential, signal from intercom, or signal from remote button allows entry and activates exterior actuator; pushing"
+            },
+            {
+              "y": 398.4,
+              "cells": [
+                {
+                  "x_start": 76.7,
+                  "raw_text": "actuator opens the door."
+                }
+              ],
+              "raw_text": "actuator opens the door."
+            },
+            {
+              "y": 409.9,
+              "cells": [
+                {
+                  "x_start": 76.7,
+                  "raw_text": "Free egress at all times; pushing interior actuator opens the door."
+                }
+              ],
+              "raw_text": "Free egress at all times; pushing interior actuator opens the door."
+            },
+            {
+              "y": 421.4,
+              "cells": [
+                {
+                  "x_start": 76.7,
+                  "raw_text": "Upon loss of power, door to remain locked and operator is disabled."
+                }
+              ],
+              "raw_text": "Upon loss of power, door to remain locked and operator is disabled."
+            },
+            {
+              "y": 432.8,
+              "cells": [
+                {
+                  "x_start": 76.7,
+                  "raw_text": "Door is monitored by the access control system."
+                }
+              ],
+              "raw_text": "Door is monitored by the access control system."
+            }
+          ],
+          "column_labels": null,
+          "uncertainty": "No usable printed column-header row was found. Cells retain approximate x positions and raw text; field names are intentionally not inferred."
+        }
+      ]
+    },
+    {
+      "project": "Fresco Coding Challenge (Hardware Sets)/81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf",
+      "set_id": "Heading #1",
+      "source_pdf": "Fresco Coding Challenge (Hardware Sets)/81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf",
+      "source_pages": {
+        "2": "Page 2 of 238\n81-85 Bridgeport\nSubmittal Date: April 16th 2025\n Manufacturers & Finishes\n Manufacturers\n<None>\nAdams Rite Manufacturing Co.\n  (Pgs 50-66)\nCamden Door Controls\n  (Pgs 67-70)\nFalcon\n  (Pgs 71-149)\nGlynn-Johnson\n  (Pgs 150-158)\nIves\nK.N. Crowder\nLCN\n  (Pgs 195-198)\nMcKinney\n  (Pgs 199-207)\nNorton Rixson Door Control Products  (Pgs 208-211)\nSchlage\n  (Pgs 212-216)\nStandard Metal\nVision Hollow Metal Ltd.\nVon Duprin\n  (Pgs 227-238)\n Finishes\n26D - Satin chromium plated over nickel\n32D - Satin stainless steel\n626 - Satin chromium plated over nickel\n628 - Satin aluminum, clear anodized\n630 - Satin stainless steel\n689 - Aluminum painted\nC26D - Satin chromium plated over nickel\nC28 - Satin aluminum, clear anodized\nC32D - Satin stainless steel\nUS15 - Satin nickel plated, clear coated\nUS28 - Satin aluminum, clear anodized",
+        "3": "Page 3 of 238\n Hardware Schedule\nHeading #1\nItem #1\n1 Single door 101, EXTERIOR FROM VESTIBULE 101\nRHR\n965 x 2134 x 44 - HM DR x HM FR\n3\nStandard Hinge\nT4A3386 5\" x 4 1/2\" C32D NRP\nC32D\n1\nExit Device\n25-R-L-NL 622 510L-NL LAT 626 RHR 965 x 2134 Door\n626/622\n1\nCylinder\n985 626 1 1/4\" G 6-Pin Open\n626\n1\nSurface Closer\nSC71A Rw/ PA 689\n689\n1\nWeatherstripping\nW-50S-CA x 38\"x84\" Opening\nCA\n1\nWeatherstripping\nW-38S-CA x 38\"\nCA\n1\nThreshold\nCT-45 x 38\"",
+        "4": "Page 4 of 238\nHeading #2\nItem #2\n1 Pair of doors 101A, EXTERIOR FROM VESTIBULE 101\nLHRA\n965, 965 x 2147 x 50 - AL DR x AL FR\nCard Access Not Shown On Arch Drawings Or Door Schedule - Please Confirm\nNo Electrical Drawings Seen At Time Of HRDW Schedule\n1\nContinuous Hinge\n112XY-83\" C28 EPT\nC28\n@ 42\" Top Down\n1\nContinuous Hinge\n112XY-83\" C28\nC28\n1\nAccessory\nEPT-10-689\n689\n1\nElectrified Exit Device\nRX-MEL-24-R-C 630 718C 626 LHR 4' LENGTH CON 965 x 2147 Door\n626/630\n1\nExit Device\n24-R L 630 RHR 4' LENGTH 965 x 2147 Door\n630\n1\nCylinder\n951 626 1 1/4\" G 6-Pin Open\n626\n1\nRemovable Mullion\nKR-4023 689 84 17/32\"\n689\n1\nCylinder\n985 626 1 1/4\" G 6-Pin Open\n626\n2\nDoor Pull\n8145EZHD-18 C32D-316\nC32D-316\n1\nCard Access\nCard Reader & Fobs By Security Contractor\n2\nOverhead Door Stop\n104S C26D\nC26D\n1\nSurface Closer\nSC71A Rw/ PA 689 SC70A-18\n689\n1\nAuto Operator\nHorton 4100 LHR Push Series\nUS28\n2\nActuator\n8310-813\n2\nMounting Box\n9530-18 628\n628\n1\nWeatherstripping\nWeatherstrip Set By Door Supplier\nCA\n1\nThreshold\nCT-65(Stock Size) x 76\"\n2\nDoor Postion Switch\n679-05HM\n1\nSchematic\nOpening Schematic By Others\n1\nPower Supply - By Security Contractor\n1 Door Opens Automatically w/ Auto Operator\nBoth Doors Are Free Egress Out At All Times\n120V Power To Be Provided By Electrical Contractor - Push Side Of Active Door- Leading Edge Of Frame\nAll Low Voltage Wiring For Auto Operator Devices By Auto Operator Supplier\nHeading #3\nItem #3\n1 Single door 102, VESTIBULE 101 TO CACF 102\nRH\n965 x 2134 x 44 - HM DR x HM FR\n3\nStandard Hinge\nTA714 4 1/2\" x 4\" C26D\nC26D\n1\nLockset\nW581 P6 LAT/LAT 626/626 G\n626/626\n1\nFloor Door Stop\nS102LF C26D\nC26D\n3\nDoor Silencer\nSR64 GRY\nGRY"
+      },
+      "source_excerpt": "Heading #1\nItem #1\n1 Single door 101, EXTERIOR FROM VESTIBULE 101\nRHR\n965 x 2134 x 44 - HM DR x HM FR\n3\nStandard Hinge\nT4A3386 5\" x 4 1/2\" C32D NRP\nC32D\n1\nExit Device\n25-R-L-NL 622 510L-NL LAT 626 RHR 965 x 2134 Door\n626/622\n1\nCylinder\n985 626 1 1/4\" G 6-Pin Open\n626\n1\nSurface Closer\nSC71A Rw/ PA 689\n689\n1\nWeatherstripping\nW-50S-CA x 38\"x84\" Opening\nCA\n1\nWeatherstripping\nW-38S-CA x 38\"\nCA\n1\nThreshold\nCT-45 x 38\"",
+      "llm": {
+        "set_number": "Heading #1",
+        "description": "Single door 101, EXTERIOR FROM VESTIBULE 101",
+        "door_references": [
+          "101"
+        ],
+        "source_pdf": "Fresco Coding Challenge (Hardware Sets)/81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf",
+        "location": {
+          "pages": [
+            3
+          ],
+          "line_ranges": [
+            {
+              "page_number": 3,
+              "line_start": 3,
+              "line_end": 34
+            }
+          ]
+        },
+        "components": [
+          {
+            "qty": 3,
+            "description": "Standard Hinge",
+            "product": "T4A3386 5\" x 4 1/2\" C32D NRP",
+            "catalog_number": null,
+            "mfr": null,
+            "finish": "C32D",
+            "notes": null,
+            "source_page": 3,
+            "raw_component_text": "Standard Hinge\nT4A3386 5\" x 4 1/2\" C32D NRP\nC32D"
+          },
+          {
+            "qty": 1,
+            "description": "Exit Device",
+            "product": "25-R-L-NL 622 510L-NL LAT 626 RHR 965 x 2134 Door",
+            "catalog_number": null,
+            "mfr": null,
+            "finish": "626/622",
+            "notes": null,
+            "source_page": 3,
+            "raw_component_text": "Exit Device\n25-R-L-NL 622 510L-NL LAT 626 RHR 965 x 2134 Door\n626/622"
+          },
+          {
+            "qty": 1,
+            "description": "Cylinder",
+            "product": "985 626 1 1/4\" G 6-Pin Open",
+            "catalog_number": null,
+            "mfr": null,
+            "finish": "626",
+            "notes": null,
+            "source_page": 3,
+            "raw_component_text": "Cylinder\n985 626 1 1/4\" G 6-Pin Open\n626"
+          },
+          {
+            "qty": 1,
+            "description": "Surface Closer",
+            "product": "SC71A Rw/ PA 689",
+            "catalog_number": null,
+            "mfr": null,
+            "finish": "689",
+            "notes": null,
+            "source_page": 3,
+            "raw_component_text": "Surface Closer\nSC71A Rw/ PA 689\n689"
+          },
+          {
+            "qty": 1,
+            "description": "Weatherstripping",
+            "product": "W-50S-CA x 38\"x84\" Opening",
+            "catalog_number": null,
+            "mfr": null,
+            "finish": "CA",
+            "notes": null,
+            "source_page": 3,
+            "raw_component_text": "Weatherstripping\nW-50S-CA x 38\"x84\" Opening\nCA"
+          },
+          {
+            "qty": 1,
+            "description": "Weatherstripping",
+            "product": "W-38S-CA x 38\"",
+            "catalog_number": null,
+            "mfr": null,
+            "finish": "CA",
+            "notes": null,
+            "source_page": 3,
+            "raw_component_text": "Weatherstripping\nW-38S-CA x 38\"\nCA"
+          },
+          {
+            "qty": 1,
+            "description": "Threshold",
+            "product": "CT-45 x 38\"",
+            "catalog_number": null,
+            "mfr": null,
+            "finish": null,
+            "notes": null,
+            "source_page": 3,
+            "raw_component_text": "Threshold\nCT-45 x 38\""
+          }
+        ],
+        "notes": null,
+        "uncertainty_note": null,
+        "extraction_status": "completed",
+        "confidence": "high",
+        "source_format": "text"
+      },
+      "llm_status": "valid JSON and schema",
+      "attempts": [
+        {
+          "attempt": 1,
+          "max_tokens": 4000,
+          "validation_status": "valid",
+          "raw_response": "{\n  \"set_number\": \"1\",\n  \"description\": \"Heading #1\",\n  \"door_references\": [\n    \"1 Single door 101, EXTERIOR FROM VESTIBULE 101\"\n  ],\n  \"source_pdf\": \"Fresco Coding Challenge (Hardware Sets)/81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf\",\n  \"location\": {\n    \"pages\": [\n      3\n    ],\n    \"line_ranges\": [\n      {\n        \"page_number\": 3,\n        \"line_start\": 3,\n        \"line_end\": 34\n      }\n    ]\n  },\n  \"components\": [\n    {\n      \"qty\": 3,\n      \"description\": \"Standard Hinge\",\n      \"product\": \"T4A3386 5\\\" x 4 1/2\\\" C32D NRP\",\n      \"catalog_number\": \"null\",\n      \"mfr\": \"null\",\n      \"finish\": \"C32D\",\n      \"notes\": \"null\",\n      \"source_page\": 3,\n      \"raw_component_text\": \"Standard Hinge\\nT4A3386 5\\\" x 4 1/2\\\" C32D NRP\\nC32D\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Exit Device\",\n      \"product\": \"25-R-L-NL 622 510L-NL LAT 626 RHR 965 x 2134 Door\",\n      \"catalog_number\": \"null\",\n      \"mfr\": \"null\",\n      \"finish\": \"626/622\",\n      \"notes\": \"null\",\n      \"source_page\": 3,\n      \"raw_component_text\": \"Exit Device\\n25-R-L-NL 622 510L-NL LAT 626 RHR 965 x 2134 Door\\n626/622\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Cylinder\",\n      \"product\": \"985 626 1 1/4\\\" G 6-Pin Open\",\n      \"catalog_number\": \"null\",\n      \"mfr\": \"null\",\n      \"finish\": \"626\",\n      \"notes\": \"null\",\n      \"source_page\": 3,\n      \"raw_component_text\": \"Cylinder\\n985 626 1 1/4\\\" G 6-Pin Open\\n626\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Surface Closer\",\n      \"product\": \"SC71A Rw/ PA 689\",\n      \"catalog_number\": \"null\",\n      \"mfr\": \"null\",\n      \"finish\": \"689\",\n      \"notes\": \"null\",\n      \"source_page\": 3,\n      \"raw_component_text\": \"Surface Closer\\nSC71A Rw/ PA 689\\n689\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Weatherstripping\",\n      \"product\": \"W-50S-CA x 38\\\"x84\\\" Opening\",\n      \"catalog_number\": \"null\",\n      \"mfr\": \"null\",\n      \"finish\": \"CA\",\n      \"notes\": \"null\",\n      \"source_page\": 3,\n      \"raw_component_text\": \"Weatherstripping\\nW-50S-CA x 38\\\"x84\\\" Opening\\nCA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Weatherstripping\",\n      \"product\": \"W-38S-CA x 38\\\"\",\n      \"catalog_number\": \"null\",\n      \"mfr\": \"null\",\n      \"finish\": \"CA\",\n      \"notes\": \"null\",\n      \"source_page\": 3,\n      \"raw_component_text\": \"Weatherstripping\\nW-38S-CA x 38\\\"\\nCA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Threshold\",\n      \"product\": \"CT-45 x 38\\\"\",\n      \"catalog_number\": \"null\",\n      \"mfr\": \"null\",\n      \"finish\": \"null\",\n      \"notes\": \"null\",\n      \"source_page\": 3,\n      \"raw_component_text\": \"Threshold\\nCT-45 x 38\\\"\"\n    }\n  ],\n  \"notes\": \"null\",\n  \"uncertainty_note\": \"null\",\n  \"extraction_status\": \"completed\",\n  \"confidence\": \"high\",\n  \"source_format\": \"text\"\n}",
+          "error": null
+        }
+      ],
+      "raw_model_output": "{\n  \"set_number\": \"1\",\n  \"description\": \"Heading #1\",\n  \"door_references\": [\n    \"1 Single door 101, EXTERIOR FROM VESTIBULE 101\"\n  ],\n  \"source_pdf\": \"Fresco Coding Challenge (Hardware Sets)/81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf\",\n  \"location\": {\n    \"pages\": [\n      3\n    ],\n    \"line_ranges\": [\n      {\n        \"page_number\": 3,\n        \"line_start\": 3,\n        \"line_end\": 34\n      }\n    ]\n  },\n  \"components\": [\n    {\n      \"qty\": 3,\n      \"description\": \"Standard Hinge\",\n      \"product\": \"T4A3386 5\\\" x 4 1/2\\\" C32D NRP\",\n      \"catalog_number\": \"null\",\n      \"mfr\": \"null\",\n      \"finish\": \"C32D\",\n      \"notes\": \"null\",\n      \"source_page\": 3,\n      \"raw_component_text\": \"Standard Hinge\\nT4A3386 5\\\" x 4 1/2\\\" C32D NRP\\nC32D\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Exit Device\",\n      \"product\": \"25-R-L-NL 622 510L-NL LAT 626 RHR 965 x 2134 Door\",\n      \"catalog_number\": \"null\",\n      \"mfr\": \"null\",\n      \"finish\": \"626/622\",\n      \"notes\": \"null\",\n      \"source_page\": 3,\n      \"raw_component_text\": \"Exit Device\\n25-R-L-NL 622 510L-NL LAT 626 RHR 965 x 2134 Door\\n626/622\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Cylinder\",\n      \"product\": \"985 626 1 1/4\\\" G 6-Pin Open\",\n      \"catalog_number\": \"null\",\n      \"mfr\": \"null\",\n      \"finish\": \"626\",\n      \"notes\": \"null\",\n      \"source_page\": 3,\n      \"raw_component_text\": \"Cylinder\\n985 626 1 1/4\\\" G 6-Pin Open\\n626\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Surface Closer\",\n      \"product\": \"SC71A Rw/ PA 689\",\n      \"catalog_number\": \"null\",\n      \"mfr\": \"null\",\n      \"finish\": \"689\",\n      \"notes\": \"null\",\n      \"source_page\": 3,\n      \"raw_component_text\": \"Surface Closer\\nSC71A Rw/ PA 689\\n689\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Weatherstripping\",\n      \"product\": \"W-50S-CA x 38\\\"x84\\\" Opening\",\n      \"catalog_number\": \"null\",\n      \"mfr\": \"null\",\n      \"finish\": \"CA\",\n      \"notes\": \"null\",\n      \"source_page\": 3,\n      \"raw_component_text\": \"Weatherstripping\\nW-50S-CA x 38\\\"x84\\\" Opening\\nCA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Weatherstripping\",\n      \"product\": \"W-38S-CA x 38\\\"\",\n      \"catalog_number\": \"null\",\n      \"mfr\": \"null\",\n      \"finish\": \"CA\",\n      \"notes\": \"null\",\n      \"source_page\": 3,\n      \"raw_component_text\": \"Weatherstripping\\nW-38S-CA x 38\\\"\\nCA\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"Threshold\",\n      \"product\": \"CT-45 x 38\\\"\",\n      \"catalog_number\": \"null\",\n      \"mfr\": \"null\",\n      \"finish\": \"null\",\n      \"notes\": \"null\",\n      \"source_page\": 3,\n      \"raw_component_text\": \"Threshold\\nCT-45 x 38\\\"\"\n    }\n  ],\n  \"notes\": \"null\",\n  \"uncertainty_note\": \"null\",\n  \"extraction_status\": \"completed\",\n  \"confidence\": \"high\",\n  \"source_format\": \"text\"\n}",
+      "validation_status": "valid",
+      "retry_count": 0,
+      "error_details": [],
+      "differences": [
+        "set-level description: deterministic='1 Single door 101, EXTERIOR FROM VESTIBULE 101'; LLM='Single door 101, EXTERIOR FROM VESTIBULE 101'",
+        "cylinder qty: deterministic=None; LLM=1",
+        "cylinder catalog_number: deterministic='985 626 1 1/4\" G 6-Pin Open'; LLM='985'",
+        "cylinder mfr: deterministic=None; LLM='Adams Rite Manufacturing Co.'",
+        "cylinder finish: deterministic=None; LLM='626'",
+        "exit device qty: deterministic=None; LLM=1",
+        "exit device catalog_number: deterministic='25-R-L-NL 622 510L-NL LAT 626 RHR 965 x 2134 Door'; LLM='25-R-L-NL'",
+        "exit device mfr: deterministic=None; LLM='Adams Rite Manufacturing Co.'",
+        "exit device finish: deterministic=None; LLM='626/622'",
+        "standard hinge qty: deterministic=None; LLM=3",
+        "standard hinge catalog_number: deterministic='T4A3386 5\" x 4 1/2\" C32D NRP'; LLM='T4A3386'",
+        "standard hinge mfr: deterministic=None; LLM='Adams Rite Manufacturing Co.'",
+        "standard hinge finish: deterministic=None; LLM='C32D'",
+        "surface closer qty: deterministic=None; LLM=1",
+        "surface closer catalog_number: deterministic='SC71A Rw/ PA 689'; LLM='SC71A'",
+        "surface closer mfr: deterministic=None; LLM='Adams Rite Manufacturing Co.'",
+        "surface closer finish: deterministic=None; LLM='689'",
+        "threshold qty: deterministic=None; LLM=1",
+        "threshold catalog_number: deterministic='CT-45 x 38\"'; LLM='CT-45'",
+        "threshold mfr: deterministic=None; LLM='Adams Rite Manufacturing Co.'",
+        "weatherstripping qty: deterministic=None; LLM=1",
+        "weatherstripping catalog_number: deterministic='W-50S-CA x 38\"x84\" Opening'; LLM='W-50S-CA'",
+        "weatherstripping mfr: deterministic=None; LLM='Adams Rite Manufacturing Co.'",
+        "weatherstripping finish: deterministic=None; LLM='CA'",
+        "weatherstripping qty: deterministic=None; LLM=1",
+        "weatherstripping catalog_number: deterministic='W-38S-CA x 38\"'; LLM='W-38S-CA'",
+        "weatherstripping mfr: deterministic=None; LLM='Adams Rite Manufacturing Co.'",
+        "weatherstripping finish: deterministic=None; LLM='CA'"
+      ],
+      "layout_evidence": [
+        {
+          "page_number": 3,
+          "method": "PyMuPDF word bounding boxes",
+          "rows": [],
+          "column_labels": null,
+          "uncertainty": "Target set heading was not located on this page; source text is retained without assigning geometry to the set."
+        }
+      ]
+    },
+    {
+      "project": "Fresco Coding Challenge (Hardware Sets)/Roselle Public Library/087100_FL_-_Door_Hardware_IFB_REVISED.pdf",
+      "set_id": "8.1",
+      "source_pdf": "Fresco Coding Challenge (Hardware Sets)/Roselle Public Library/087100_FL_-_Door_Hardware_IFB_REVISED.pdf",
+      "source_pages": {
+        "16": "SECTION 087100 \nDOOR HARDWARE \n \n \nRoselle Public Library District \nNew Building\nIssue for Bid \nFebruary 5, 2026\n122413 - 16 \nROSELLE PUBLIC LIBRARY DISTRICT - DOOR HARDWARE SCHEDULE\nSET \nHARDWARE TYPE\nMANUFACTURER - PRODUCT\nQTY. FINISH\nNOTES\n3.3\nMORTISE HINGE\nIVES - 5BB1 4.5\" x 4.5\"\n2\n613 (OIL RUBBED BRONZE)\nFULL MORTISE, FIVE KNUCKLE BB HINGE\nWORKROOM\nHW MORTISE HINGE\nIVES - 5BB1HW 4.5\" x 4.5\"\n1\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ OWNER'S SECUIRTY VENDOR\nSINGLE DOOR\nMORTISE LOCKSET\nELEC. UNLOCKING\nSCHLAGE - L9092EU, 18 LEVER, A ROSE, 10-072 STRIKE - FSIC \nPRIMUS\n1\n613 (OIL RUBBED BRONZE)\nELECTRIC UNLOCKING FUNCTION; COORDINATE W/ OWNER'S \nSECURITY VENDOR\nSURFACE CLOSER\nLCN - 4040XP - HEDA ARM - METAL COVER\n1\n691 (LIGHT BRONZE)\nEXTRA DUTY ARM W/ HOLD OPEN, METAL COVER\nWALL STOP\nIVES - WS401/402CCV\n1\n613 (OIL RUBBED BRONZE)\nSEE PLANS FOR WALL CONSTRUCTION\nSILENCERS\nIVES - SILENCER SI6X\n--\nBLACK\nCONTRACTOR TO CONFIRM QUANTITIES\nCARD READER\nDOOR ACCESS \nCONTROL DEVICES\nCARD READER / DPS / POWER SUPPLY / ETC (BY OTHERS)\n--\nPREP/ROUGH-IN DOORS & FRAMES FOR DEVICES TO BE PROVIDED & \nINSTALLED BY OWNER'S SECURITY VENDOR\n3.4\nMORTISE HINGE\nIVES - 5BB1 4.5\" x 4.5\"\n2\n613 (OIL RUBBED BRONZE)\nFULL MORTISE, FIVE KNUCKLE BB HINGE\nWORKROOM\nHW MORTISE HINGE\nIVES - 5BB1HW 4.5\" x 4.5\"\n1\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ OWNER'S SECUIRTY VENDOR\nW/ AUTO-OP\nSINGLE DOOR\nMORTISE LOCKSET\nELEC. UNLOCKING\nSCHLAGE - L9092EU, 18 LEVER, A ROSE, 10-072 STRIKE - FSIC \nPRIMUS\n1\n613 (OIL RUBBED BRONZE)\nELECTRIC UNLOCKING FUNCTION; COORDINATE W/ OWNER'S \nSECURITY VENDOR\nAUTO OPERATOR\nASSA ABLOY - SW100\n1\n691 (LIGHT BRONZE)\nCOORDINATE W/ OWNER'S SECUIRTY VENDOR\nFLOOR STOP\nROCKWOOD - 446\n1\n613 (OIL RUBBED BRONZE)\nSILENCERS\nIVES - SILENCER SI6X\n--\nBLACK\nCONTRACTOR TO CONFIRM QUANTITIES\nCARD READER\nDOOR ACCESS \nCONTROL DEVICES\nCARD READER / DPS / POWER SUPPLY / ETC (BY OTHERS)\n--\nPREP/ROUGH-IN DOORS & FRAMES FOR DEVICES TO BE PROVIDED & \nINSTALLED BY OWNER'S SECURITY VENDOR\n3.5\nMORTISE HINGE\nIVES - 5BB1 4.5\" x 4.5\"\n5\n613 (OIL RUBBED BRONZE)\nFULL MORTISE, FIVE KNUCKLE BB HINGE\nRECEIVING\nHW MORTISE HINGE\nIVES - 5BB1HW 4.5\" x 4.5\"\n1\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ OWNER'S SECUIRTY VENDOR\nW/ AUTO-OP\nDBL DOORS\nMORTISE LOCKSET\nELEC. UNLOCKING\nSCHLAGE - L9092EU, 18 LEVER, A ROSE, 10-072 STRIKE - FSIC \nPRIMUS\n1\n613 (OIL RUBBED BRONZE)\nELECTRIC UNLOCKING FUNCTION; COORDINATE W/ OWNER'S \nSECURITY VENDOR\nAUTO OPERATOR\nASSA ABLOY - SW100\n1\n691 (LIGHT BRONZE)\nCOORDINATE W/ OWNER'S SECUIRTY VENDOR\nFLUSH BOLT\nIVES - FB45X\n2\n613 (OIL RUBBED BRONZE)\nTOP & BOTTOM\nFLOOR STOP\nROCKWOOD - 446\n1\n613 (OIL RUBBED BRONZE)\nWALL STOP\nIVES - WS401/402CCV\n1\n613 (OIL RUBBED BRONZE)\nSEE PLANS FOR WALL CONSTRUCTION\nPROTECTION PLATE\nIVES - 8400 KICK PLATE\n4\n613 (OIL RUBBED BRONZE)\nSILENCERS\nIVES - SILENCER SI6X\n--\nBLACK\nCONTRACTOR TO CONFIRM QUANTITIES\nCARD READER\nDOOR ACCESS \nCONTROL DEVICES\nCARD READER / DPS / POWER SUPPLY / ETC (BY OTHERS)\n--\nPREP/ROUGH-IN DOORS & FRAMES FOR DEVICES TO BE PROVIDED & \nINSTALLED BY OWNER'S SECURITY VENDOR\n4.1\nMORTISE HINGE\nIVES - 5BB1 4.5\" x 4.5\"\n3\n613 (OIL RUBBED BRONZE)\nFULL MORTISE, FIVE KNUCKLE BB HINGE\nSTORAGE\nSINGLE DOOR\nMORTISE LOCKSET\nSCHLAGE - L9081, 18 LEVER, A ROSE, 10-072 STRIKE - FSIC \nPRIMUS\n1\n613 (OIL RUBBED BRONZE)\nSTOREROOM FUNCTION\nSURFACE CLOSER\nLCN - 4040XP - HEDA ARM - METAL COVER\n1\n691 (LIGHT BRONZE)\nEXTRA DUTY ARM W/ HOLD OPEN, METAL COVER\nWALL STOP\nIVES - WS401/402CCV\n1\n613 (OIL RUBBED BRONZE)\nSEE PLANS FOR WALL CONSTRUCTION\nSILENCERS\nIVES - SILENCER SI6X\n--\nBLACK\nCONTRACTOR TO CONFIRM QUANTITIES\n4.2\nMORTISE HINGE\nIVES - 5BB1 4.5\" x 4.5\"\n3\n613 (OIL RUBBED BRONZE)\nFULL MORTISE, FIVE KNUCKLE BB HINGE\nJANITOR\nSINGLE DOOR\nMORTISE LOCKSET\nSCHLAGE - L9081, 818 LEVER (MILLED TACTILE WARNING), A \nROSE, 10-072 STRIKE - FSIC PRIMUS\n1\n613 (OIL RUBBED BRONZE)\nSTOREROOM FUNCTION\nSURFACE CLOSER\nLCN - 4040XP - HEDA ARM - METAL COVER\n1\n691 (LIGHT BRONZE)\nEXTRA DUTY ARM W/ HOLD OPEN, METAL COVER\nWALL STOP\nIVES - WS401/402CCV\n1\n613 (OIL RUBBED BRONZE)\nSEE PLANS FOR WALL CONSTRUCTION\nPROTECTION PLATE\nIVES - 8400 MOP PLATE\n1\n613 (OIL RUBBED BRONZE)\nSILENCERS\nIVES - SILENCER SI6X\n--\nBLACK\nCONTRACTOR TO CONFIRM QUANTITIES\n4.3\nMORTISE HINGE\nIVES - 5BB1 4.5\" x 4.5\"\n3\n613 (OIL RUBBED BRONZE)\nFULL MORTISE, FIVE KNUCKLE BB HINGE\nUTILITIES\nSINGLE DOOR\nMORTISE LOCKSET\nSCHLAGE - L9081, 818 LEVER (MILLED TACTILE WARNING), A \nROSE, 10-072 STRIKE - FSIC PRIMUS\n1\n613 (OIL RUBBED BRONZE)\nSTOREROOM FUNCTION\nSURFACE CLOSER\nLCN - 4040XP - HEDA ARM - METAL COVER\n1\n691 (LIGHT BRONZE)\nEXTRA DUTY ARM W/ HOLD OPEN, METAL COVER\nPROTECTION PLATE\nIVES - 8400 KICK & MOP PLATE\n2\n613 (OIL RUBBED BRONZE)\nSILENCERS\nIVES - SILENCER SI6X\n--\nBLACK\nCONTRACTOR TO CONFIRM QUANTITIES\n4.4\nMORTISE HINGE\nIVES - 5BB1 4.5\" x 4.5\"\n2\n613 (OIL RUBBED BRONZE)\nFULL MORTISE, FIVE KNUCKLE BB HINGE\nSINGLE DOOR\nHW MORTISE HINGE\nIVES - 5BB1HW 4.5\" x 4.5\"\n1\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ OWNER'S SECUIRTY VENDOR\nSINGLE DOOR\nMORTISE LOCKSET\nELEC. UNLOCKING\nSCHLAGE - L9092EU, 818 LEVER (MILLED TACTILE WARNING), A \nROSE, 10-072 STRIKE - FSIC PRIMUS\n1\n613 (OIL RUBBED BRONZE)\nELECTRIC UNLOCKING FUNCTION; COORDINATE W/ OWNER'S \nSECURITY VENDOR\nSURFACE CLOSER\nLCN - 4040XP - HEDA ARM - METAL COVER\n1\n691 (LIGHT BRONZE)\nEXTRA DUTY ARM W/ HOLD OPEN, METAL COVER\nWALL STOP\nIVES - WS401/402CCV\n1\n613 (OIL RUBBED BRONZE)\nSEE PLANS FOR WALL CONSTRUCTION\nSILENCERS\nIVES - SILENCER SI6X\n--\nBLACK\nCONTRACTOR TO CONFIRM QUANTITIES\nCARD READER\nDOOR ACCESS \nCONTROL DEVICES\nCARD READER / DPS / POWER SUPPLY / ETC (BY OTHERS)\n--\nPREP/ROUGH-IN DOORS & FRAMES FOR DEVICES TO BE PROVIDED & \nINSTALLED BY OWNER'S SECURITY VENDOR\n4.5\nMORTISE HINGE\nIVES - 5BB1 4.5\" x 4.5\"\n5\n613 (OIL RUBBED BRONZE)\nFULL MORTISE, FIVE KNUCKLE BB HINGE\nSINGLE DOOR\nHW MORTISE HINGE\nIVES - 5BB1HW 4.5\" x 4.5\"\n1\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ OWNER'S SECUIRTY VENDOR\nDBL DOORS\nMORTISE LOCKSET\nELEC. UNLOCKING\nSCHLAGE - L9092EU, 18 LEVER, A ROSE, 10-072 STRIKE - FSIC \nPRIMUS\n1\n613 (OIL RUBBED BRONZE)\nELECTRIC UNLOCKING FUNCTION; COORDINATE W/ OWNER'S \nSECURITY VENDOR\nSURFACE CLOSER\nLCN - 4040XP - HEDA ARM - METAL COVER\n1\n691 (LIGHT BRONZE)\nEXTRA DUTY ARM W/ HOLD OPEN, METAL COVER\nFLUSH BOLT\nIVES - FB45X\n2\n613 (OIL RUBBED BRONZE)\nTOP & BOTTOM\nFLOOR STOP\nROCKWOOD - 446\n2\n613 (OIL RUBBED BRONZE)\nPROTECTION PLATE\nIVES - 8400 KICK PLATE\n4\n613 (OIL RUBBED BRONZE)\nSILENCERS\nIVES - SILENCER SI6X\n--\nBLACK\nCONTRACTOR TO CONFIRM QUANTITIES\nCARD READER\nDOOR ACCESS \nCONTROL DEVICES\nCARD READER / DPS / POWER SUPPLY / ETC (BY OTHERS)\n--\nPREP/ROUGH-IN DOORS & FRAMES FOR DEVICES TO BE PROVIDED & \nINSTALLED BY OWNER'S SECURITY VENDOR\n4.6\nMORTISE HINGE\nIVES - 5BB1 4.5\" x 4.5\"\n5\n613 (OIL RUBBED BRONZE)\nFULL MORTISE, FIVE KNUCKLE BB HINGE\nSINGLE DOOR\nHW MORTISE HINGE\nIVES - 5BB1HW 4.5\" x 4.5\"\n1\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ OWNER'S SECUIRTY VENDOR\nDBL DOORS\nMORTISE LOCKSET\nELEC. UNLOCKING\nSCHLAGE - L9092EU, 818 LEVER (MILLED TACTILE WARNING), A \nROSE, 10-072 STRIKE - FSIC PRIMUS\n1\n613 (OIL RUBBED BRONZE)\nELECTRIC UNLOCKING FUNCTION; COORDINATE W/ OWNER'S \nSECURITY VENDOR\nSURFACE CLOSER\nLCN - 4040XP - HEDA ARM - METAL COVER\n1\n691 (LIGHT BRONZE)\nEXTRA DUTY ARM W/ HOLD OPEN, METAL COVER\nFLUSH BOLT\nIVES - FB45X\n2\n613 (OIL RUBBED BRONZE)\nTOP & BOTTOM\nFLOOR STOP\nROCKWOOD - 446\n2\n613 (OIL RUBBED BRONZE)\nPROTECTION PLATE\nIVES - 8400 KICK PLATE\n4\n613 (OIL RUBBED BRONZE)\nSILENCERS\nIVES - SILENCER SI6X\n--\nBLACK\nCONTRACTOR TO CONFIRM QUANTITIES\nCARD READER\nDOOR ACCESS \nCONTROL DEVICES\nCARD READER / DPS / POWER SUPPLY / ETC (BY OTHERS)\n--\nPREP/ROUGH-IN DOORS & FRAMES FOR DEVICES TO BE PROVIDED & \nINSTALLED BY OWNER'S SECURITY VENDOR\n4.7\nMORTISE HINGE\nIVES - 5BB1 4.5\" x 4.5\"\n6\n613 (OIL RUBBED BRONZE)\nFULL MORTISE, FIVE KNUCKLE BB HINGE\nSTORAGE\nDBL DOORS\nMORTISE LOCKSET\nSCHLAGE - L9081, 18 LEVER, A ROSE, 10-072 STRIKE - FSIC \nPRIMUS\n1\n613 (OIL RUBBED BRONZE)\nSTOREROOM FUNCTION\nSURFACE CLOSER\nLCN - 4040XP - HEDA ARM - METAL COVER\n1\n691 (LIGHT BRONZE)\nEXTRA DUTY ARM W/ HOLD OPEN, METAL COVER\nFLUSH BOLT\nIVES - FB45X\n2\n613 (OIL RUBBED BRONZE)\nTOP & BOTTOM\nFLOOR STOP\nROCKWOOD - 446\n2\n613 (OIL RUBBED BRONZE)\nPROTECTION PLATE\nIVES - 8400 KICK PLATE\n4\n613 (OIL RUBBED BRONZE)\nSILENCERS\nIVES - SILENCER SI6X\n--\nBLACK\nCONTRACTOR TO CONFIRM QUANTITIES",
+        "17": "SECTION 087100 \nDOOR HARDWARE \n \n \nRoselle Public Library District \nNew Building\nIssue for Bid \nFebruary 5, 2026\n122413 - 17 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nPART 2 - END OF SECTION 087100 \n \nROSELLE PUBLIC LIBRARY DISTRICT - DOOR HARDWARE SCHEDULE\nSET \nHARDWARE TYPE\nMANUFACTURER - PRODUCT\nQTY. FINISH\nNOTES\n5.1\nMORTISE HINGE\nIVES - 5BB1 4.5\" x 4.5\"\n2\n613 (OIL RUBBED BRONZE)\nFULL MORTISE, FIVE KNUCKLE BB HINGE\nSTUDY ROOM\nHW MORTISE HINGE\nIVES - 5BB1HW 4.5\" x 4.5\"\n1\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ OWNER'S SECUIRTY VENDOR\nSINGLE DOOR\nMORTISE LOCKSET\nELEC. UNLOCKING\nSCHLAGE - L9092EU, 18 LEVER, A ROSE, 10-072 STRIKE - FSIC \nPRIMUS\n1\n613 (OIL RUBBED BRONZE)\nELECTRIC UNLOCKING FUNCTION; COORDINATE W/ OWNER'S \nSECURITY VENDOR\nWALL STOP\nIVES - WS401/402CCV\n1\n613 (OIL RUBBED BRONZE)\nSEE PLANS FOR WALL CONSTRUCTION\nSILENCERS\nIVES - SILENCER SI6X\n--\nBLACK\nCONTRACTOR TO CONFIRM QUANTITIES\nCARD READER\nDOOR ACCESS \nCONTROL DEVICES\nCARD READER / DPS / POWER SUPPLY / ETC (BY OTHERS)\n--\nPREP/ROUGH-IN DOORS & FRAMES FOR DEVICES TO BE PROVIDED & \nINSTALLED BY OWNER'S SECURITY VENDOR\nPROVIDE FLOOR STOP @ DOOR 223\n6.1\nPIVOT HINGE\nALUR - 3/4\" OFFSET PIVOT HINGES\n2\n613 (OIL RUBBED BRONZE)\nPROVIDED BY ALUR\nSTUDY ROOM\nDEMOUNTABLE\nGLASS PATCH \nMORTISE LOCKSET\nALUR - ND70 GLASS PATCH CYLINDRICAL LOCKSET, 19L LEVER \n(COORDINATE CORE W/ OTHER TRADES)\n1\n613 (OIL RUBBED BRONZE)\nCLASSROOM FUNCTION; PROVIDED BY ALUR \n(COORDINATE KEYING/CORE W/ OTHER TRADES)\nGL ENTRANCE\nCYLINDER / CORE\nSCHLAGE - FSIC PRIMUS\n1\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ ALUR\nSINGLE DOOR\nELECTRIC STRIKE\nTRINE 3000 SERIES\n1\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ ALUR & OWNER'S SECUIRTY VENDOR\nOH CLOSER\nALUR - CONCEALED OVERHEAD CLOSER W/ 90DEG. H.O.\n1\n613 (OIL RUBBED BRONZE)\nPROVIDED BY ALUR\nFLOOR STOP\nROCKWOOD - 446\n1\n613 (OIL RUBBED BRONZE)\nCARD READER\nDOOR ACCESS CTRL\nCARD READER / DPS / POWER SUPPLY / ETC (BY OTHERS)\n--\nPREP/ROUGH-IN DOORS & FRAMES FOR DEVICES TO BE PROVIDED & \nINSTALLED BY OWNER'S SECURITY VENDOR\n6.2\nPIVOT HINGE\nALUR - 3/4\" OFFSET PIVOT HINGES\n2\n613 (OIL RUBBED BRONZE)\nPROVIDED BY ALUR\nTEEN\nDEMOUNTABLE\nGLASS PATCH \nMORTISE LOCKSET\nALUR - ND70 GLASS PATCH CYLINDRICAL LOCKSET, 19L LEVER \n(COORDINATE CORE W/ OTHER TRADES)\n1\n613 (OIL RUBBED BRONZE)\nPROVIDED BY ALUR\nGL ENTRANCE\nCYLINDER / CORE\nSCHLAGE - FSIC PRIMUS\n1\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ ALUR\nSINGLE DOOR\nOH CLOSER\nALUR - CONCEALED OVERHEAD CLOSER W/ 90DEG. H.O.\n1\n613 (OIL RUBBED BRONZE)\nPROVIDED BY ALUR\nFLOOR STOP\nROCKWOOD - 446\n1\n613 (OIL RUBBED BRONZE)\n7.1\nPIVOT HINGE\nCRL - CLEAR VIEW PIVOT HINGE\n2\n613 (OIL RUBBED BRONZE)\nMAKERSPACE\nALL-GLASS\nHANDLE SET\nBLUMCRAFT - GLASS-MOUNT HANDLES DB100 \nW/ KEYED CYLINDER - FSIC PRIMUS\n1\n613 (OIL RUBBED BRONZE)\nFULL HEIGHT 'F' STYLE\nENTRANCE\nOH CLOSER\nCRL - CONCEALED OVERHEAD CLOSER\n1\n613 (OIL RUBBED BRONZE)\nSINGLE DOOR\nFLOOR STOP\nROCKWOOD - 446\n1\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ ALL-GLASS ENTRANCE MFR.\n7.2\nPIVOT HINGE\nCRL - CLEAR VIEW PIVOT HINGE\n4\n613 (OIL RUBBED BRONZE)\nPROGRAM RM\nALL-GLASS\nHANDLE SET\nBLUMCRAFT - GLASS-MOUNT HANDLES DB100 \nW/ KEYED CYLINDER - FSIC PRIMUS\n2\n613 (OIL RUBBED BRONZE)\nFULL HEIGHT 'F' STYLE\nENTRANCE\nOH CLOSER\nCRL - CONCEALED OVERHEAD CLOSER\n2\n613 (OIL RUBBED BRONZE)\nDBL DOORS\nFLOOR STOP\nROCKWOOD - 446\n2\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ ALL-GLASS ENTRANCE MFR.\n7.3\nPIVOT HINGE\nCRL - CLEAR VIEW PIVOT HINGE\n2\n613 (OIL RUBBED BRONZE)\nSTUDY ROOM\nALL-GLASS\nHANDLE SET\nBLUMCRAFT - GLASS-MOUNT HANDLES DB100 \nW/ KEYED CYLINDER - FSIC PRIMUS\n1\n613 (OIL RUBBED BRONZE)\nFULL HEIGHT 'F' STYLE\nENTRANCE\nOH CLOSER\nCRL - CONCEALED OVERHEAD CLOSER\n1\n613 (OIL RUBBED BRONZE)\nSINGLE DOOR\nELECTRIC STRIKE\nVON DUPRIN - 6200 SERIES\n1\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ OWNER'S SECUIRTY VENDOR\nFLOOR STOP\nROCKWOOD - 446\n1\n613 (OIL RUBBED BRONZE)\nCARD READER\nDOOR ACCESS \nCONTROL DEVICES\nCARD READER / DPS / POWER SUPPLY / ETC (BY OTHERS)\n--\nPREP/ROUGH-IN DOORS & FRAMES FOR DEVICES TO BE PROVIDED & \nINSTALLED BY OWNER'S SECURITY VENDOR\nCOORDINATE W/ ALL-GLASS ENTRANCE MFR.\n7.4\nPIVOT HINGE\nCRL - CLEAR VIEW PIVOT HINGE\n4\n613 (OIL RUBBED BRONZE)\nYOUTH ENTR\nHANDLE SET\nCRL - GLASS-MOUNT FULL-HEIGHT LADDER PULLS\n2\n613 (OIL RUBBED BRONZE)\nFULL HEIGHT 'F' STYLE\nALL-GLASS\nENTRANCE\nFLOOR OPERATOR\nIN-GROUND\nASSA ABLOY - SW200i-IG IN-GROUND SWING DOOR OPERATOR \nW/ WAVE TO OPEN ACUATORS\n2\n691 (LIGHT BRONZE)\nDBL DOORS\nFLOOR STOP\nROCKWOOD - 446\n2\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ ALL-GLASS ENTRANCE MFR.\n7.5\nPIVOT HINGE\nCRL - CLEAR VIEW PIVOT HINGE\n2\n613 (OIL RUBBED BRONZE)\nMTG / EGRESS\nALL-GLASS\nPANIC HARDWARE\nBLUMCRAFT - GLASS-MOUNT PANIC DEVICE PA100 \nW/ KEYED CYLINDER - FSIC PRIMUS\n1\n613 (OIL RUBBED BRONZE)\nFULL HEIGHT 'F' STYLE\nENTRANCE\nOH CLOSER\nCRL - CONCEALED OVERHEAD CLOSER\n1\n613 (OIL RUBBED BRONZE)\nSINGLE DOOR\nFLOOR STOP\nROCKWOOD - 446\n1\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ ALL-GLASS ENTRANCE MFR.\n7.6\nPIVOT HINGE\nCRL - CLEAR VIEW PIVOT HINGE\n4\n613 (OIL RUBBED BRONZE)\nMTG / EGRESS\nALL-GLASS\nPANIC HARDWARE\nBLUMCRAFT - GLASS-MOUNT PANIC DEVICE PA100 \nW/ KEYED CYLINDER - FSIC PRIMUS\n2\n613 (OIL RUBBED BRONZE)\nFULL HEIGHT 'F' STYLE\nENTRANCE\nOH CLOSER\nCRL - CONCEALED OVERHEAD CLOSER\n2\n613 (OIL RUBBED BRONZE)\nDBL DOORS\nFLOOR STOP\nROCKWOOD - 446\n2\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ ALL-GLASS ENTRANCE MFR.\n8.1\nMORTISE HINGE\nIVES - 5BB1 4.5\" x 4.5\"\n3\n613 (OIL RUBBED BRONZE)\nFULL MORTISE, FIVE KNUCKLE BB HINGE\nSINGLE-USER\nMORTISE LOCKSET\nSCHLAGE - L9444, 18 LEVER, L ESCUTCHEON, 10-072 STRIKE\n1\n613 (OIL RUBBED BRONZE)\nPRIVACY FUNCTION (\"OCCUPIED\") W/ DEADBOLT & COIN TURN\nRESTROOM\nDEADBOLT MONITOR\nSCHLAGE - DEADBOLT MONITOR\n1\nCOORDINATE W/ LOCKSET, ELECTRIC STRIKE & AUTO OPERATOR\nSINGLE DOOR\nAUTO OPERATOR\nASSA ABLOY - SW100 W/ WAVE TO OPEN ACUATORS\n1\n691 (LIGHT BRONZE)\nCOORDINATE W/ DEADBOLT MONITOR & ELECTRIC STRIKE\nELECTRIC STRIKE\nVON DUPRIN - 6200 SERIES\n1\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ DEADBOLT MONITOR & AUTO OPERATOR\nWALL STOP\nIVES - WS401/402CCV\n1\n613 (OIL RUBBED BRONZE)\nSEE PLANS FOR WALL CONSTRUCTION\nPROTECTION PLATE\nIVES - 8400 KICK & MOP PLATE\n2\n613 (OIL RUBBED BRONZE)\nSILENCERS\nIVES - SILENCER SI6X\n--\nBLACK\nCONTRACTOR TO CONFIRM QUANTITIES\n8.2\nMORTISE HINGE\nIVES - 5BB1 4.5\" x 4.5\"\n3\n613 (OIL RUBBED BRONZE)\nFULL MORTISE, FIVE KNUCKLE BB HINGE\nMULTI-USER\nOFFSET PULL\nIVES - 9264-72-56-FLAT TIP\n2\n613 (OIL RUBBED BRONZE)\n72\" LENGTH\nRESTROOM\nAUTO OPERATOR\nASSA ABLOY - SW100 W/ WAVE TO OPEN ACUATORS\n1\n691 (LIGHT BRONZE)\nSINGLE DOOR\nWALL STOP\nIVES - WS401/402CCV\n1\n613 (OIL RUBBED BRONZE)\nSEE PLANS FOR WALL CONSTRUCTION\nPROTECTION PLATE\nIVES - 8400 KICK & MOP PLATE\n2\n613 (OIL RUBBED BRONZE)\nSILENCERS\nIVES - SILENCER SI6X\n--\nBLACK\nCONTRACTOR TO CONFIRM QUANTITIES\n8.3\nMORTISE HINGE\nIVES - 5BB1 4.5\" x 4.5\"\n3\n613 (OIL RUBBED BRONZE)\nFULL MORTISE, FIVE KNUCKLE BB HINGE\nWELLNESS\nMORTISE LOCKSET\nSCHLAGE - L9444, 18 LEVER, L ESCUTCHEON, 10-072 STRIKE\n1\n613 (OIL RUBBED BRONZE)\nPRIVACY FUNCTION (\"OCCUPIED\") W/ DEADBOLT & COIN TURN\nSINGLE DOOR\nWALL STOP\nIVES - WS401/402CCV\n1\n613 (OIL RUBBED BRONZE)\nSEE PLANS FOR WALL CONSTRUCTION\nSILENCERS\nIVES - SILENCER SI6X\n--\nBLACK\nCONTRACTOR TO CONFIRM QUANTITIES"
+      },
+      "source_excerpt": "8.1\nMORTISE HINGE\nIVES - 5BB1 4.5\" x 4.5\"\n3\n613 (OIL RUBBED BRONZE)\nFULL MORTISE, FIVE KNUCKLE BB HINGE\nSINGLE-USER\nMORTISE LOCKSET\nSCHLAGE - L9444, 18 LEVER, L ESCUTCHEON, 10-072 STRIKE\n1\n613 (OIL RUBBED BRONZE)\nPRIVACY FUNCTION (\"OCCUPIED\") W/ DEADBOLT & COIN TURN\nRESTROOM\nDEADBOLT MONITOR\nSCHLAGE - DEADBOLT MONITOR\n1\nCOORDINATE W/ LOCKSET, ELECTRIC STRIKE & AUTO OPERATOR\nSINGLE DOOR\nAUTO OPERATOR\nASSA ABLOY - SW100 W/ WAVE TO OPEN ACUATORS\n1\n691 (LIGHT BRONZE)\nCOORDINATE W/ DEADBOLT MONITOR & ELECTRIC STRIKE\nELECTRIC STRIKE\nVON DUPRIN - 6200 SERIES\n1\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ DEADBOLT MONITOR & AUTO OPERATOR\nWALL STOP\nIVES - WS401/402CCV\n1\n613 (OIL RUBBED BRONZE)\nSEE PLANS FOR WALL CONSTRUCTION\nPROTECTION PLATE\nIVES - 8400 KICK & MOP PLATE\n2\n613 (OIL RUBBED BRONZE)\nSILENCERS\nIVES - SILENCER SI6X\n--\nBLACK\nCONTRACTOR TO CONFIRM QUANTITIES",
+      "llm": {
+        "set_number": "8.1",
+        "description": null,
+        "door_references": [],
+        "source_pdf": "Fresco Coding Challenge (Hardware Sets)/Roselle Public Library/087100_FL_-_Door_Hardware_IFB_REVISED.pdf",
+        "location": {
+          "pages": [
+            17
+          ],
+          "line_ranges": [
+            {
+              "page_number": 17,
+              "line_start": 312,
+              "line_end": 353
+            }
+          ]
+        },
+        "components": [
+          {
+            "qty": 3,
+            "description": "MORTISE HINGE",
+            "product": "IVES - 5BB1 4.5\" x 4.5\"",
+            "catalog_number": null,
+            "mfr": "IVES",
+            "finish": "613 (OIL RUBBED BRONZE)",
+            "notes": "FULL MORTISE, FIVE KNUCKLE BB HINGE",
+            "source_page": 17,
+            "raw_component_text": "MORTISE HINGE\nIVES - 5BB1 4.5\" x 4.5\"\n3\n613 (OIL RUBBED BRONZE)\nFULL MORTISE, FIVE KNUCKLE BB HINGE\nSINGLE-USER"
+          },
+          {
+            "qty": 1,
+            "description": "MORTISE LOCKSET",
+            "product": "SCHLAGE - L9444, 18 LEVER, L ESCUTCHEON, 10-072 STRIKE",
+            "catalog_number": null,
+            "mfr": "SCHLAGE",
+            "finish": "613 (OIL RUBBED BRONZE)",
+            "notes": "PRIVACY FUNCTION (\"OCCUPIED\") W/ DEADBOLT & COIN TURN\nRESTROOM",
+            "source_page": 17,
+            "raw_component_text": "MORTISE LOCKSET\nSCHLAGE - L9444, 18 LEVER, L ESCUTCHEON, 10-072 STRIKE\n1\n613 (OIL RUBBED BRONZE)\nPRIVACY FUNCTION (\"OCCUPIED\") W/ DEADBOLT & COIN TURN\nRESTROOM"
+          },
+          {
+            "qty": 1,
+            "description": "DEADBOLT MONITOR",
+            "product": "SCHLAGE - DEADBOLT MONITOR",
+            "catalog_number": null,
+            "mfr": "SCHLAGE",
+            "finish": null,
+            "notes": "COORDINATE W/ LOCKSET, ELECTRIC STRIKE & AUTO OPERATOR\nSINGLE DOOR",
+            "source_page": 17,
+            "raw_component_text": "DEADBOLT MONITOR\nSCHLAGE - DEADBOLT MONITOR\n1\nCOORDINATE W/ LOCKSET, ELECTRIC STRIKE & AUTO OPERATOR\nSINGLE DOOR"
+          },
+          {
+            "qty": 1,
+            "description": "AUTO OPERATOR",
+            "product": "ASSA ABLOY - SW100 W/ WAVE TO OPEN ACUATORS",
+            "catalog_number": null,
+            "mfr": "ASSA ABLOY",
+            "finish": "691 (LIGHT BRONZE)",
+            "notes": "COORDINATE W/ DEADBOLT MONITOR & ELECTRIC STRIKE",
+            "source_page": 17,
+            "raw_component_text": "AUTO OPERATOR\nASSA ABLOY - SW100 W/ WAVE TO OPEN ACUATORS\n1\n691 (LIGHT BRONZE)\nCOORDINATE W/ DEADBOLT MONITOR & ELECTRIC STRIKE"
+          },
+          {
+            "qty": 1,
+            "description": "ELECTRIC STRIKE",
+            "product": "VON DUPRIN - 6200 SERIES",
+            "catalog_number": null,
+            "mfr": "VON DUPRIN",
+            "finish": "613 (OIL RUBBED BRONZE)",
+            "notes": "COORDINATE W/ DEADBOLT MONITOR & AUTO OPERATOR",
+            "source_page": 17,
+            "raw_component_text": "ELECTRIC STRIKE\nVON DUPRIN - 6200 SERIES\n1\n613 (OIL RUBBED BRONZE)\nCOORDINATE W/ DEADBOLT MONITOR & AUTO OPERATOR"
+          },
+          {
+            "qty": 1,
+            "description": "WALL STOP",
+            "product": "IVES - WS401/402CCV",
+            "catalog_number": null,
+            "mfr": "IVES",
+            "finish": "613 (OIL RUBBED BRONZE)",
+            "notes": "SEE PLANS FOR WALL CONSTRUCTION",
+            "source_page": 17,
+            "raw_component_text": "WALL STOP\nIVES - WS401/402CCV\n1\n613 (OIL RUBBED BRONZE)\nSEE PLANS FOR WALL CONSTRUCTION"
+          },
+          {
+            "qty": 2,
+            "description": "PROTECTION PLATE",
+            "product": "IVES - 8400 KICK & MOP PLATE",
+            "catalog_number": null,
+            "mfr": "IVES",
+            "finish": "613 (OIL RUBBED BRONZE)",
+            "notes": "SILENCERS\nCONTRACTOR TO CONFIRM QUANTITIES",
+            "source_page": 17,
+            "raw_component_text": "PROTECTION PLATE\nIVES - 8400 KICK & MOP PLATE\n2\n613 (OIL RUBBED BRONZE)\nSILENCERS\n--\nBLACK\nCONTRACTOR TO CONFIRM QUANTITIES"
+          }
+        ],
+        "notes": "",
+        "uncertainty_note": "No material uncertainty in component values or assignments; all values directly extracted from text. Wall stop and protection plate quantities and finishes are consistent with source. Finish codes (613, 691) are used as-is per legend; no inference made beyond direct text alignment.",
+        "extraction_status": "complete",
+        "confidence": "high",
+        "source_format": "text-based table with adjacent context"
+      },
+      "llm_status": "valid JSON and schema",
+      "attempts": [
+        {
+          "attempt": 1,
+          "max_tokens": 4000,
+          "validation_status": "valid",
+          "raw_response": "{\n  \"set_number\": \"8.1\",\n  \"description\": \"MORTISE HINGE\",\n  \"door_references\": [],\n  \"source_pdf\": \"Fresco Coding Challenge (Hardware Sets)/Roselle Public Library/087100_FL_-_Door_Hardware_IFB_REVISED.pdf\",\n  \"location\": {\n    \"pages\": [\n      17\n    ],\n    \"line_ranges\": [\n      {\n        \"page_number\": 17,\n        \"line_start\": 312,\n        \"line_end\": 353\n      }\n    ]\n  },\n  \"components\": [\n    {\n      \"qty\": 3,\n      \"description\": \"MORTISE HINGE\",\n      \"product\": \"IVES - 5BB1 4.5\\\" x 4.5\\\"\",\n      \"catalog_number\": null,\n      \"mfr\": \"IVES\",\n      \"finish\": \"613 (OIL RUBBED BRONZE)\",\n      \"notes\": \"FULL MORTISE, FIVE KNUCKLE BB HINGE\",\n      \"source_page\": 17,\n      \"raw_component_text\": \"MORTISE HINGE\\nIVES - 5BB1 4.5\\\" x 4.5\\\"\\n3\\n613 (OIL RUBBED BRONZE)\\nFULL MORTISE, FIVE KNUCKLE BB HINGE\\nSINGLE-USER\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"MORTISE LOCKSET\",\n      \"product\": \"SCHLAGE - L9444, 18 LEVER, L ESCUTCHEON, 10-072 STRIKE\",\n      \"catalog_number\": null,\n      \"mfr\": \"SCHLAGE\",\n      \"finish\": \"613 (OIL RUBBED BRONZE)\",\n      \"notes\": \"PRIVACY FUNCTION (\\\"OCCUPIED\\\") W/ DEADBOLT & COIN TURN\\nRESTROOM\",\n      \"source_page\": 17,\n      \"raw_component_text\": \"MORTISE LOCKSET\\nSCHLAGE - L9444, 18 LEVER, L ESCUTCHEON, 10-072 STRIKE\\n1\\n613 (OIL RUBBED BRONZE)\\nPRIVACY FUNCTION (\\\"OCCUPIED\\\") W/ DEADBOLT & COIN TURN\\nRESTROOM\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"DEADBOLT MONITOR\",\n      \"product\": \"SCHLAGE - DEADBOLT MONITOR\",\n      \"catalog_number\": null,\n      \"mfr\": \"SCHLAGE\",\n      \"finish\": \"613 (OIL RUBBED BRONZE)\",\n      \"notes\": \"COORDINATE W/ LOCKSET, ELECTRIC STRIKE & AUTO OPERATOR\\nSINGLE DOOR\",\n      \"source_page\": 17,\n      \"raw_component_text\": \"DEADBOLT MONITOR\\nSCHLAGE - DEADBOLT MONITOR\\n1\\nCOORDINATE W/ LOCKSET, ELECTRIC STRIKE & AUTO OPERATOR\\nSINGLE DOOR\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"AUTO OPERATOR\",\n      \"product\": \"ASSA ABLOY - SW100 W/ WAVE TO OPEN ACUATORS\",\n      \"catalog_number\": null,\n      \"mfr\": \"ASSA ABLOY\",\n      \"finish\": \"691 (LIGHT BRONZE)\",\n      \"notes\": \"COORDINATE W/ DEADBOLT MONITOR & ELECTRIC STRIKE\",\n      \"source_page\": 17,\n      \"raw_component_text\": \"AUTO OPERATOR\\nASSA ABLOY - SW100 W/ WAVE TO OPEN ACUATORS\\n1\\n691 (LIGHT BRONZE)\\nCOORDINATE W/ DEADBOLT MONITOR & ELECTRIC STRIKE\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"ELECTRIC STRIKE\",\n      \"product\": \"VON DUPRIN - 6200 SERIES\",\n      \"catalog_number\": null,\n      \"mfr\": \"VON DUPRIN\",\n      \"finish\": \"613 (OIL RUBBED BRONZE)\",\n      \"notes\": \"COORDINATE W/ DEADBOLT MONITOR & AUTO OPERATOR\",\n      \"source_page\": 17,\n      \"raw_component_text\": \"ELECTRIC STRIKE\\nVON DUPRIN - 6200 SERIES\\n1\\n613 (OIL RUBBED BRONZE)\\nCOORDINATE W/ DEADBOLT MONITOR & AUTO OPERATOR\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"WALL STOP\",\n      \"product\": \"IVES - WS401/402CCV\",\n      \"catalog_number\": null,\n      \"mfr\": \"IVES\",\n      \"finish\": \"613 (OIL RUBBED BRONZE)\",\n      \"notes\": \"SEE PLANS FOR WALL CONSTRUCTION\",\n      \"source_page\": 17,\n      \"raw_component_text\": \"WALL STOP\\nIVES - WS401/402CCV\\n1\\n613 (OIL RUBBED BRONZE)\\nSEE PLANS FOR WALL CONSTRUCTION\"\n    },\n    {\n      \"qty\": 2,\n      \"description\": \"PROTECTION PLATE\",\n      \"product\": \"IVES - 8400 KICK & MOP PLATE\",\n      \"catalog_number\": null,\n      \"mfr\": \"IVES\",\n      \"finish\": \"613 (OIL RUBBED BRONZE)\",\n      \"notes\": \"SILENCERS\\nCONTRACTOR TO CONFIRM QUANTITIES\",\n      \"source_page\": 17,\n      \"raw_component_text\": \"PROTECTION PLATE\\nIVES - 8400 KICK & MOP PLATE\\n2\\n613 (OIL RUBBED BRONZE)\\nSILENCERS\\n--\\nBLACK\\nCONTRACTOR TO CONFIRM QUANTITIES\"\n    }\n  ],\n  \"notes\": \"\",\n  \"uncertainty_note\": \"No material uncertainty in component values or assignments; all values directly extracted from text. Wall stop and protection plate quantities and finishes are consistent with source. Finish codes (613, 691) are used as-is per legend; no inference made beyond direct text alignment.\",\n  \"extraction_status\": \"complete\",\n  \"confidence\": \"high\",\n  \"source_format\": \"text-based table with adjacent context\"\n}",
+          "error": null
+        }
+      ],
+      "raw_model_output": "{\n  \"set_number\": \"8.1\",\n  \"description\": \"MORTISE HINGE\",\n  \"door_references\": [],\n  \"source_pdf\": \"Fresco Coding Challenge (Hardware Sets)/Roselle Public Library/087100_FL_-_Door_Hardware_IFB_REVISED.pdf\",\n  \"location\": {\n    \"pages\": [\n      17\n    ],\n    \"line_ranges\": [\n      {\n        \"page_number\": 17,\n        \"line_start\": 312,\n        \"line_end\": 353\n      }\n    ]\n  },\n  \"components\": [\n    {\n      \"qty\": 3,\n      \"description\": \"MORTISE HINGE\",\n      \"product\": \"IVES - 5BB1 4.5\\\" x 4.5\\\"\",\n      \"catalog_number\": null,\n      \"mfr\": \"IVES\",\n      \"finish\": \"613 (OIL RUBBED BRONZE)\",\n      \"notes\": \"FULL MORTISE, FIVE KNUCKLE BB HINGE\",\n      \"source_page\": 17,\n      \"raw_component_text\": \"MORTISE HINGE\\nIVES - 5BB1 4.5\\\" x 4.5\\\"\\n3\\n613 (OIL RUBBED BRONZE)\\nFULL MORTISE, FIVE KNUCKLE BB HINGE\\nSINGLE-USER\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"MORTISE LOCKSET\",\n      \"product\": \"SCHLAGE - L9444, 18 LEVER, L ESCUTCHEON, 10-072 STRIKE\",\n      \"catalog_number\": null,\n      \"mfr\": \"SCHLAGE\",\n      \"finish\": \"613 (OIL RUBBED BRONZE)\",\n      \"notes\": \"PRIVACY FUNCTION (\\\"OCCUPIED\\\") W/ DEADBOLT & COIN TURN\\nRESTROOM\",\n      \"source_page\": 17,\n      \"raw_component_text\": \"MORTISE LOCKSET\\nSCHLAGE - L9444, 18 LEVER, L ESCUTCHEON, 10-072 STRIKE\\n1\\n613 (OIL RUBBED BRONZE)\\nPRIVACY FUNCTION (\\\"OCCUPIED\\\") W/ DEADBOLT & COIN TURN\\nRESTROOM\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"DEADBOLT MONITOR\",\n      \"product\": \"SCHLAGE - DEADBOLT MONITOR\",\n      \"catalog_number\": null,\n      \"mfr\": \"SCHLAGE\",\n      \"finish\": \"613 (OIL RUBBED BRONZE)\",\n      \"notes\": \"COORDINATE W/ LOCKSET, ELECTRIC STRIKE & AUTO OPERATOR\\nSINGLE DOOR\",\n      \"source_page\": 17,\n      \"raw_component_text\": \"DEADBOLT MONITOR\\nSCHLAGE - DEADBOLT MONITOR\\n1\\nCOORDINATE W/ LOCKSET, ELECTRIC STRIKE & AUTO OPERATOR\\nSINGLE DOOR\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"AUTO OPERATOR\",\n      \"product\": \"ASSA ABLOY - SW100 W/ WAVE TO OPEN ACUATORS\",\n      \"catalog_number\": null,\n      \"mfr\": \"ASSA ABLOY\",\n      \"finish\": \"691 (LIGHT BRONZE)\",\n      \"notes\": \"COORDINATE W/ DEADBOLT MONITOR & ELECTRIC STRIKE\",\n      \"source_page\": 17,\n      \"raw_component_text\": \"AUTO OPERATOR\\nASSA ABLOY - SW100 W/ WAVE TO OPEN ACUATORS\\n1\\n691 (LIGHT BRONZE)\\nCOORDINATE W/ DEADBOLT MONITOR & ELECTRIC STRIKE\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"ELECTRIC STRIKE\",\n      \"product\": \"VON DUPRIN - 6200 SERIES\",\n      \"catalog_number\": null,\n      \"mfr\": \"VON DUPRIN\",\n      \"finish\": \"613 (OIL RUBBED BRONZE)\",\n      \"notes\": \"COORDINATE W/ DEADBOLT MONITOR & AUTO OPERATOR\",\n      \"source_page\": 17,\n      \"raw_component_text\": \"ELECTRIC STRIKE\\nVON DUPRIN - 6200 SERIES\\n1\\n613 (OIL RUBBED BRONZE)\\nCOORDINATE W/ DEADBOLT MONITOR & AUTO OPERATOR\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"WALL STOP\",\n      \"product\": \"IVES - WS401/402CCV\",\n      \"catalog_number\": null,\n      \"mfr\": \"IVES\",\n      \"finish\": \"613 (OIL RUBBED BRONZE)\",\n      \"notes\": \"SEE PLANS FOR WALL CONSTRUCTION\",\n      \"source_page\": 17,\n      \"raw_component_text\": \"WALL STOP\\nIVES - WS401/402CCV\\n1\\n613 (OIL RUBBED BRONZE)\\nSEE PLANS FOR WALL CONSTRUCTION\"\n    },\n    {\n      \"qty\": 2,\n      \"description\": \"PROTECTION PLATE\",\n      \"product\": \"IVES - 8400 KICK & MOP PLATE\",\n      \"catalog_number\": null,\n      \"mfr\": \"IVES\",\n      \"finish\": \"613 (OIL RUBBED BRONZE)\",\n      \"notes\": \"SILENCERS\\nCONTRACTOR TO CONFIRM QUANTITIES\",\n      \"source_page\": 17,\n      \"raw_component_text\": \"PROTECTION PLATE\\nIVES - 8400 KICK & MOP PLATE\\n2\\n613 (OIL RUBBED BRONZE)\\nSILENCERS\\n--\\nBLACK\\nCONTRACTOR TO CONFIRM QUANTITIES\"\n    }\n  ],\n  \"notes\": \"\",\n  \"uncertainty_note\": \"No material uncertainty in component values or assignments; all values directly extracted from text. Wall stop and protection plate quantities and finishes are consistent with source. Finish codes (613, 691) are used as-is per legend; no inference made beyond direct text alignment.\",\n  \"extraction_status\": \"complete\",\n  \"confidence\": \"high\",\n  \"source_format\": \"text-based table with adjacent context\"\n}",
+      "validation_status": "valid",
+      "retry_count": 0,
+      "error_details": [],
+      "differences": [
+        "set-level description: deterministic='SINGLE DOOR\\nAUTO OPERATOR'; LLM='MORTISE HINGE'",
+        "component description 'auto operator': deterministic count=0; LLM count=1",
+        "deadbolt monitor qty: deterministic=None; LLM=1",
+        "deadbolt monitor catalog_number: deterministic='1'; LLM=None",
+        "deadbolt monitor mfr: deterministic=None; LLM='SCHLAGE'",
+        "deadbolt monitor finish: deterministic=None; LLM='613 (OIL RUBBED BRONZE)'",
+        "electric strike qty: deterministic=None; LLM=1",
+        "electric strike catalog_number: deterministic='VON DUPRIN - 6200 SERIES'; LLM=None",
+        "electric strike mfr: deterministic=None; LLM='VON DUPRIN'",
+        "electric strike finish: deterministic=None; LLM='613 (OIL RUBBED BRONZE)'",
+        "mortise hinge qty: deterministic=None; LLM=3",
+        "mortise hinge catalog_number: deterministic='IVES - 5BB1 4.5\" x 4.5\"'; LLM=None",
+        "mortise hinge mfr: deterministic=None; LLM='IVES'",
+        "mortise hinge finish: deterministic=None; LLM='613 (OIL RUBBED BRONZE)'",
+        "mortise lockset qty: deterministic=None; LLM=1",
+        "mortise lockset catalog_number: deterministic='SCHLAGE - L9444, 18 LEVER, L ESCUTCHEON, 10-072 STRIKE'; LLM=None",
+        "mortise lockset mfr: deterministic=None; LLM='SCHLAGE'",
+        "mortise lockset finish: deterministic=None; LLM='613 (OIL RUBBED BRONZE)'",
+        "protection plate qty: deterministic=None; LLM=2",
+        "protection plate catalog_number: deterministic='IVES - 8400 KICK & MOP PLATE'; LLM=None",
+        "protection plate mfr: deterministic=None; LLM='IVES'",
+        "protection plate finish: deterministic=None; LLM='613 (OIL RUBBED BRONZE)'",
+        "component description 'silencers': deterministic count=1; LLM count=0",
+        "wall stop qty: deterministic=None; LLM=1",
+        "wall stop catalog_number: deterministic='IVES - WS401/402CCV'; LLM=None",
+        "wall stop mfr: deterministic=None; LLM='IVES'",
+        "wall stop finish: deterministic=None; LLM='613 (OIL RUBBED BRONZE)'"
+      ],
+      "layout_evidence": [
+        {
+          "page_number": 17,
+          "method": "PyMuPDF word bounding boxes",
+          "rows": [],
+          "column_labels": null,
+          "uncertainty": "Target set heading was not located on this page; source text is retained without assigning geometry to the set."
+        }
+      ]
+    },
+    {
+      "project": "Fresco Coding Challenge (Hardware Sets)/SAT TDP/2025.12.19 - SAT TDP - Project Manual.pdf",
+      "set_id": "715TW",
+      "source_pdf": "Fresco Coding Challenge (Hardware Sets)/SAT TDP/2025.12.19 - SAT TDP - Project Manual.pdf",
+      "source_pages": {
+        "733": "New Terminal - San Antonio International Airport \n23183.A07a \nBulletin T039 \n19 December 2025 \nDoor Hardware \n08 71 00 - 39 \nHardware Group No. 715RWT \n \nQTY \n \nDESCRIPTION \nCATALOG NUMBER \nFINISH \nMFR \n4 \nEA \nHINGE \n5BB1HW 5 X 4.5 NRP \n630 \nIVE \n1 \nEA \nFIRE RATED EXIT DEVICE \n12-43-TB-LC-8804 ETJ 26D/32D \nLENGTH AS REQ \n626 \nSAR \n1 \nEA \n_CYLINDER \nAS REQUIRED \n626 \nSAR \n1 \nEA \nLFIC PERMANENT CORE \nMATCH EXISTING KEY SYSTEM \n626 \nSAR \n1 \nEA \nSURFACE CLOSER \n4040XP SCUSH X TBWMS X MTG \nBRKT, SPCR & PLATE AS REQ \n689 \nLCN \n1 \nEA \nKICK PLATE \n8400 10\" X 2\" LDW B-CS \n630 \nIVE \n1 \nEA \nRAIN DRIP \n142AA DW + 4\" \n(OMIT @ COVERED OPENINGS) \nAA \nZER \n1 \nSET \nGASKETING \n328AA H & J \nAA \nZER \n1 \nEA \nDOOR SWEEP \n8198AA \nAA \nZER \n1 \nEA \nTHRESHOLD \n65A \nA \nZER \n \nHardware Group No. 715T \n \nQTY \n \nDESCRIPTION \nCATALOG NUMBER \nFINISH \nMFR \n4 \nEA \nHINGE \n5BB1HW 4.5 X 4.5 NRP \n630 \nIVE \n1 \nEA \nEXIT DEVICE \nLD-43-TB-LC-8804 ETJ 26D/32D \nLENGTH AS REQ \n626 \nSAR \n1 \nEA \n_CYLINDER \nAS REQUIRED \n626 \nSAR \n1 \nEA \nLFIC PERMANENT CORE \nMATCH EXISTING KEY SYSTEM \n626 \nSAR \n1 \nEA \nSURFACE CLOSER \n4040XP SCUSH X TBWMS X MTG \nBRKT, SPCR & PLATE AS REQ \n689 \nLCN \n1 \nEA \nKICK PLATE \n8400 10\" X 2\" LDW B-CS \n630 \nIVE \n1 \nEA \nRAIN DRIP \n142AA DW + 4\" \n(OMIT @ COVERED OPENINGS) \nAA \nZER \n1 \nSET \nGASKETING \n328AA H & J \nAA \nZER \n1 \nEA \nDOOR SWEEP \n8198AA \nAA \nZER \n1 \nEA \nTHRESHOLD \n65A \nA \nZER",
+        "734": "New Terminal - San Antonio International Airport \n23183.A07a \nBulletin T039 \n19 December 2025 \nDoor Hardware \n08 71 00 - 40 \nHardware Group No. 715TW \n \nQTY \n \nDESCRIPTION \nCATALOG NUMBER \nFINISH \nMFR \n4 \nEA \nHINGE \n5BB1HW 5 X 4.5 NRP \n630 \nIVE \n1 \nEA \nEXIT DEVICE \nLD-43-TB-LC-8804 ETJ 26D/32D \nLENGTH AS REQ \n626 \nSAR \n1 \nEA \n_CYLINDER \nAS REQUIRED \n626 \nSAR \n1 \nEA \nLFIC PERMANENT CORE \nMATCH EXISTING KEY SYSTEM \n626 \nSAR \n1 \nEA \nSURFACE CLOSER \n4040XP SCUSH X TBWMS X MTG \nBRKT, SPCR & PLATE AS REQ \n689 \nLCN \n1 \nEA \nKICK PLATE \n8400 10\" X 2\" LDW B-CS \n630 \nIVE \n1 \nEA \nRAIN DRIP \n142AA DW + 4\" \n(OMIT @ COVERED OPENINGS) \nAA \nZER \n1 \nSET \nGASKETING \n328AA H & J \nAA \nZER \n1 \nEA \nDOOR SWEEP \n8198AA \nAA \nZER \n1 \nEA \nTHRESHOLD \n65A \nA \nZER \n \nHardware Group No. 730C \n \nQTY \n \nDESCRIPTION \nCATALOG NUMBER \nFINISH \nMFR \n6 \nEA \nHINGE \n5BB1HW 4.5 X 4.5 \n(PROVIDE NRP @ OUTSWING, \nLOCKABLE DOORS) \n652 \nIVE \n2 \nEA \nEXIT DEVICE \nLD-43-TB-8615 ETJ 26D/32D \nLENGTH & HEIGHT AS REQ \n626 \nSAR \n2 \nEA \nSURFACE CLOSER \n4040XP SCUSH X TBWMS X MTG \nBRKT, SPCR & PLATE AS REQ \n689 \nLCN \n2 \nEA \nKICK PLATE \n8400 10\" X 1\" LDW B-CS \n630 \nIVE \n2 \nEA \nSILENCER \nSR64 \nGRY \nIVE \n \nHardware Group No. 730CR \n \nQTY \n \nDESCRIPTION \nCATALOG NUMBER \nFINISH \nMFR \n6 \nEA \nHINGE \n5BB1HW 4.5 X 4.5 \n(PROVIDE NRP @ OUTSWING, \nLOCKABLE DOORS) \n652 \nIVE \n2 \nEA \nEXIT DEVICE \n12-43-TB-8615 ETJ 26D/32D \n626 \nSAR \n2 \nEA \nSURFACE CLOSER \n4040XP SCUSH X TBWMS X MTG \nBRKT, SPCR & PLATE AS REQ \n689 \nLCN \n2 \nEA \nKICK PLATE \n8400 10\" X 1\" LDW B-CS \n630 \nIVE \n1 \nEA \nGASKETING \n488S PSA H & J \nBK \nZER",
+        "735": "New Terminal - San Antonio International Airport \n23183.A07a \nBulletin T039 \n19 December 2025 \nDoor Hardware \n08 71 00 - 41 \nHardware Group No. 730R \n \nQTY \n \nDESCRIPTION \nCATALOG NUMBER \nFINISH \nMFR \n6 \nEA \nHINGE \n5BB1HW 4.5 X 4.5 \n(PROVIDE NRP @ OUTSWING, \nLOCKABLE DOORS) \n652 \nIVE \n2 \nEA \nEXIT DEVICE \n12-43-TB-8615 ETJ 26D/32D \n626 \nSAR \n2 \nEA \nSURFACE CLOSER \n4040XP RW/PA TBWMS X MTG \nBRKT, SPCR & PLATE AS REQ \n689 \nLCN \n2 \nEA \nKICK PLATE \n8400 10\" X 1\" LDW B-CS \n630 \nIVE \n2 \nEA \nWALL STOP \nWS406/407CCV \n630 \nIVE \n1 \nEA \nGASKETING \n488S PSA H & J \nBK \nZER \n \nHardware Group No. 731CRTW \n \nQTY \n \nDESCRIPTION \nCATALOG NUMBER \nFINISH \nMFR \n4 \nEA \nHINGE \n5BB1HW 5 X 4.5 \n(PROVIDE NRP @ OUTSWING, \nLOCKABLE DOORS) \n652 \nIVE \n1 \nEA \nEXIT DEVICE \n12-8815 ETJ 26D/32D LENGTH AS \nREQ \n626 \nSAR \n1 \nEA \nSURFACE CLOSER \n4040XP SCUSH X TBWMS X MTG \nBRKT, SPCR & PLATE AS REQ \n689 \nLCN \n1 \nEA \nKICK PLATE \n8400 10\" X 2\" LDW B-CS \n630 \nIVE \n1 \nEA \nGASKETING \n488S PSA H & J \nBK \nZER \n \nHardware Group No. 731CRW \n \nQTY \n \nDESCRIPTION \nCATALOG NUMBER \nFINISH \nMFR \n3 \nEA \nHINGE \n5BB1HW 5 X 4.5 \n(PROVIDE NRP @ OUTSWING, \nLOCKABLE DOORS) \n652 \nIVE \n1 \nEA \nEXIT DEVICE \n12-8815 ETJ 26D/32D LENGTH AS \nREQ \n626 \nSAR \n1 \nEA \nSURFACE CLOSER \n4040XP SCUSH X TBWMS X MTG \nBRKT, SPCR & PLATE AS REQ \n689 \nLCN \n1 \nEA \nKICK PLATE \n8400 10\" X 2\" LDW B-CS \n630 \nIVE \n1 \nEA \nGASKETING \n488S PSA H & J \nBK \nZER"
+      },
+      "source_excerpt": "Hardware Group No. 715TW \n \nQTY \n \nDESCRIPTION \nCATALOG NUMBER \nFINISH \nMFR \n4 \nEA \nHINGE \n5BB1HW 5 X 4.5 NRP \n630 \nIVE \n1 \nEA \nEXIT DEVICE \nLD-43-TB-LC-8804 ETJ 26D/32D \nLENGTH AS REQ \n626 \nSAR \n1 \nEA \n_CYLINDER \nAS REQUIRED \n626 \nSAR \n1 \nEA \nLFIC PERMANENT CORE \nMATCH EXISTING KEY SYSTEM \n626 \nSAR \n1 \nEA \nSURFACE CLOSER \n4040XP SCUSH X TBWMS X MTG \nBRKT, SPCR & PLATE AS REQ \n689 \nLCN \n1 \nEA \nKICK PLATE \n8400 10\" X 2\" LDW B-CS \n630 \nIVE \n1 \nEA \nRAIN DRIP \n142AA DW + 4\" \n(OMIT @ COVERED OPENINGS) \nAA \nZER \n1 \nSET \nGASKETING \n328AA H & J \nAA \nZER \n1 \nEA \nDOOR SWEEP \n8198AA \nAA \nZER \n1 \nEA \nTHRESHOLD \n65A \nA \nZER",
+      "llm": {
+        "set_number": "715TW",
+        "description": "Hardware Group No. 715TW",
+        "door_references": [],
+        "source_pdf": "Fresco Coding Challenge (Hardware Sets)/SAT TDP/2025.12.19 - SAT TDP - Project Manual.pdf",
+        "location": {
+          "pages": [
+            734
+          ],
+          "line_ranges": [
+            {
+              "page_number": 734,
+              "line_start": 7,
+              "line_end": 78
+            }
+          ]
+        },
+        "components": [
+          {
+            "qty": 4,
+            "description": "HINGE",
+            "product": "5BB1HW 5 X 4.5 NRP",
+            "catalog_number": "5BB1HW 5 X 4.5 NRP",
+            "mfr": "IVE",
+            "finish": "630",
+            "notes": null,
+            "source_page": 734,
+            "raw_component_text": "4 EA HINGE 5BB1HW 5 X 4.5 NRP 630 IVE"
+          },
+          {
+            "qty": 1,
+            "description": "EXIT DEVICE",
+            "product": "LD-43-TB-LC-8804 ETJ 26D/32D LENGTH AS REQ",
+            "catalog_number": "LD-43-TB-LC-8804 ETJ 26D/32D LENGTH AS REQ",
+            "mfr": "SAR",
+            "finish": "626",
+            "notes": null,
+            "source_page": 734,
+            "raw_component_text": "1 EA EXIT DEVICE LD-43-TB-LC-8804 ETJ 26D/32D 626 SAR LENGTH AS REQ"
+          },
+          {
+            "qty": 1,
+            "description": "_CYLINDER",
+            "product": "AS REQUIRED",
+            "catalog_number": "AS REQUIRED",
+            "mfr": "SAR",
+            "finish": "626",
+            "notes": null,
+            "source_page": 734,
+            "raw_component_text": "1 EA _CYLINDER AS REQUIRED 626 SAR"
+          },
+          {
+            "qty": 1,
+            "description": "LFIC PERMANENT CORE",
+            "product": "MATCH EXISTING KEY SYSTEM",
+            "catalog_number": "MATCH EXISTING KEY SYSTEM",
+            "mfr": "SAR",
+            "finish": "626",
+            "notes": null,
+            "source_page": 734,
+            "raw_component_text": "1 EA LFIC PERMANENT CORE MATCH EXISTING KEY SYSTEM 626 SAR"
+          },
+          {
+            "qty": 1,
+            "description": "SURFACE CLOSER",
+            "product": "4040XP SCUSH X TBWMS X MTG BRKT, SPCR & PLATE AS REQ",
+            "catalog_number": "4040XP SCUSH X TBWMS X MTG BRKT, SPCR & PLATE AS REQ",
+            "mfr": "LCN",
+            "finish": "689",
+            "notes": null,
+            "source_page": 734,
+            "raw_component_text": "1 EA SURFACE CLOSER 4040XP SCUSH X TBWMS X MTG 689 LCN BRKT, SPCR & PLATE AS REQ"
+          },
+          {
+            "qty": 1,
+            "description": "KICK PLATE",
+            "product": "8400 10\" X 2\" LDW B-CS",
+            "catalog_number": "8400 10\" X 2\" LDW B-CS",
+            "mfr": "IVE",
+            "finish": "630",
+            "notes": null,
+            "source_page": 734,
+            "raw_component_text": "1 EA KICK PLATE 8400 10\" X 2\" LDW B-CS 630 IVE"
+          },
+          {
+            "qty": 1,
+            "description": "RAIN DRIP",
+            "product": "142AA DW + 4\" (OMIT @ COVERED OPENINGS)",
+            "catalog_number": "142AA DW + 4\" (OMIT @ COVERED OPENINGS)",
+            "mfr": "ZER",
+            "finish": "AA",
+            "notes": null,
+            "source_page": 734,
+            "raw_component_text": "1 EA RAIN DRIP 142AA DW + 4\" AA ZER (OMIT @ COVERED OPENINGS)"
+          },
+          {
+            "qty": 1,
+            "description": "GASKETING",
+            "product": "328AA H & J",
+            "catalog_number": "328AA H & J",
+            "mfr": "ZER",
+            "finish": "AA",
+            "notes": null,
+            "source_page": 734,
+            "raw_component_text": "1 SET GASKETING 328AA H & J AA ZER"
+          },
+          {
+            "qty": 1,
+            "description": "DOOR SWEEP",
+            "product": "8198AA",
+            "catalog_number": "8198AA",
+            "mfr": "ZER",
+            "finish": "AA",
+            "notes": null,
+            "source_page": 734,
+            "raw_component_text": "1 EA DOOR SWEEP 8198AA AA ZER"
+          },
+          {
+            "qty": 1,
+            "description": "THRESHOLD",
+            "product": "65A",
+            "catalog_number": "65A",
+            "mfr": "ZER",
+            "finish": "A",
+            "notes": null,
+            "source_page": 734,
+            "raw_component_text": "1 EA THRESHOLD 65A A ZER"
+          }
+        ],
+        "notes": "",
+        "uncertainty_note": null,
+        "extraction_status": "complete",
+        "confidence": "high",
+        "source_format": "tabular with adjacent context"
+      },
+      "llm_status": "valid JSON and schema",
+      "attempts": [
+        {
+          "attempt": 1,
+          "max_tokens": 4000,
+          "validation_status": "valid",
+          "raw_response": "{\n  \"set_number\": \"715TW\",\n  \"description\": \"Hardware Group No. 715TW\",\n  \"door_references\": [],\n  \"source_pdf\": \"Fresco Coding Challenge (Hardware Sets)/SAT TDP/2025.12.19 - SAT TDP - Project Manual.pdf\",\n  \"location\": {\n    \"pages\": [\n      734\n    ],\n    \"line_ranges\": [\n      {\n        \"page_number\": 734,\n        \"line_start\": 7,\n        \"line_end\": 78\n      }\n    ]\n  },\n  \"components\": [\n    {\n      \"qty\": 4,\n      \"description\": \"HINGE\",\n      \"product\": \"5BB1HW 5 X 4.5 NRP\",\n      \"catalog_number\": \"5BB1HW 5 X 4.5 NRP\",\n      \"mfr\": \"IVE\",\n      \"finish\": \"630\",\n      \"notes\": \"\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"4 EA HINGE 5BB1HW 5 X 4.5 NRP 630 IVE\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"EXIT DEVICE\",\n      \"product\": \"LD-43-TB-LC-8804 ETJ 26D/32D\",\n      \"catalog_number\": \"LD-43-TB-LC-8804 ETJ 26D/32D LENGTH AS REQ\",\n      \"mfr\": \"SAR\",\n      \"finish\": \"626\",\n      \"notes\": \"LENGTH AS REQ\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 EA EXIT DEVICE LD-43-TB-LC-8804 ETJ 26D/32D 626 SAR LENGTH AS REQ\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"_CYLINDER\",\n      \"product\": \"AS REQUIRED\",\n      \"catalog_number\": \"AS REQUIRED\",\n      \"mfr\": \"SAR\",\n      \"finish\": \"626\",\n      \"notes\": \"\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 EA _CYLINDER AS REQUIRED 626 SAR\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"LFIC PERMANENT CORE\",\n      \"product\": \"MATCH EXISTING KEY SYSTEM\",\n      \"catalog_number\": \"MATCH EXISTING KEY SYSTEM\",\n      \"mfr\": \"SAR\",\n      \"finish\": \"626\",\n      \"notes\": \"\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 EA LFIC PERMANENT CORE MATCH EXISTING KEY SYSTEM 626 SAR\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"SURFACE CLOSER\",\n      \"product\": \"4040XP SCUSH X TBWMS X MTG\",\n      \"catalog_number\": \"4040XP SCUSH X TBWMS X MTG BRKT, SPCR & PLATE AS REQ\",\n      \"mfr\": \"LCN\",\n      \"finish\": \"689\",\n      \"notes\": \"BRKT, SPCR & PLATE AS REQ\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 EA SURFACE CLOSER 4040XP SCUSH X TBWMS X MTG 689 LCN BRKT, SPCR & PLATE AS REQ\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"KICK PLATE\",\n      \"product\": \"8400 10\\\" X 2\\\" LDW B-CS\",\n      \"catalog_number\": \"8400 10\\\" X 2\\\" LDW B-CS\",\n      \"mfr\": \"IVE\",\n      \"finish\": \"630\",\n      \"notes\": \"\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 EA KICK PLATE 8400 10\\\" X 2\\\" LDW B-CS 630 IVE\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"RAIN DRIP\",\n      \"product\": \"142AA DW + 4\\\"\",\n      \"catalog_number\": \"142AA DW + 4\\\" (OMIT @ COVERED OPENINGS)\",\n      \"mfr\": \"ZER\",\n      \"finish\": \"AA\",\n      \"notes\": \"(OMIT @ COVERED OPENINGS)\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 EA RAIN DRIP 142AA DW + 4\\\" AA ZER (OMIT @ COVERED OPENINGS)\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"GASKETING\",\n      \"product\": \"328AA H & J\",\n      \"catalog_number\": \"328AA H & J\",\n      \"mfr\": \"ZER\",\n      \"finish\": \"AA\",\n      \"notes\": \"\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 SET GASKETING 328AA H & J AA ZER\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"DOOR SWEEP\",\n      \"product\": \"8198AA\",\n      \"catalog_number\": \"8198AA\",\n      \"mfr\": \"ZER\",\n      \"finish\": \"AA\",\n      \"notes\": \"\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 EA DOOR SWEEP 8198AA AA ZER\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"THRESHOLD\",\n      \"product\": \"65A\",\n      \"catalog_number\": \"65A\",\n      \"mfr\": \"ZER\",\n      \"finish\": \"A\",\n      \"notes\": \"\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 EA THRESHOLD 65A A ZER\"\n    }\n  ],\n  \"notes\": \"\",\n  \"uncertainty_note\": null,\n  \"extraction_status\": \"complete\",\n  \"confidence\": \"high\",\n  \"source_format\": \"tabular with adjacent context\"\n}",
+          "error": null
+        }
+      ],
+      "raw_model_output": "{\n  \"set_number\": \"715TW\",\n  \"description\": \"Hardware Group No. 715TW\",\n  \"door_references\": [],\n  \"source_pdf\": \"Fresco Coding Challenge (Hardware Sets)/SAT TDP/2025.12.19 - SAT TDP - Project Manual.pdf\",\n  \"location\": {\n    \"pages\": [\n      734\n    ],\n    \"line_ranges\": [\n      {\n        \"page_number\": 734,\n        \"line_start\": 7,\n        \"line_end\": 78\n      }\n    ]\n  },\n  \"components\": [\n    {\n      \"qty\": 4,\n      \"description\": \"HINGE\",\n      \"product\": \"5BB1HW 5 X 4.5 NRP\",\n      \"catalog_number\": \"5BB1HW 5 X 4.5 NRP\",\n      \"mfr\": \"IVE\",\n      \"finish\": \"630\",\n      \"notes\": \"\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"4 EA HINGE 5BB1HW 5 X 4.5 NRP 630 IVE\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"EXIT DEVICE\",\n      \"product\": \"LD-43-TB-LC-8804 ETJ 26D/32D\",\n      \"catalog_number\": \"LD-43-TB-LC-8804 ETJ 26D/32D LENGTH AS REQ\",\n      \"mfr\": \"SAR\",\n      \"finish\": \"626\",\n      \"notes\": \"LENGTH AS REQ\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 EA EXIT DEVICE LD-43-TB-LC-8804 ETJ 26D/32D 626 SAR LENGTH AS REQ\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"_CYLINDER\",\n      \"product\": \"AS REQUIRED\",\n      \"catalog_number\": \"AS REQUIRED\",\n      \"mfr\": \"SAR\",\n      \"finish\": \"626\",\n      \"notes\": \"\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 EA _CYLINDER AS REQUIRED 626 SAR\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"LFIC PERMANENT CORE\",\n      \"product\": \"MATCH EXISTING KEY SYSTEM\",\n      \"catalog_number\": \"MATCH EXISTING KEY SYSTEM\",\n      \"mfr\": \"SAR\",\n      \"finish\": \"626\",\n      \"notes\": \"\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 EA LFIC PERMANENT CORE MATCH EXISTING KEY SYSTEM 626 SAR\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"SURFACE CLOSER\",\n      \"product\": \"4040XP SCUSH X TBWMS X MTG\",\n      \"catalog_number\": \"4040XP SCUSH X TBWMS X MTG BRKT, SPCR & PLATE AS REQ\",\n      \"mfr\": \"LCN\",\n      \"finish\": \"689\",\n      \"notes\": \"BRKT, SPCR & PLATE AS REQ\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 EA SURFACE CLOSER 4040XP SCUSH X TBWMS X MTG 689 LCN BRKT, SPCR & PLATE AS REQ\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"KICK PLATE\",\n      \"product\": \"8400 10\\\" X 2\\\" LDW B-CS\",\n      \"catalog_number\": \"8400 10\\\" X 2\\\" LDW B-CS\",\n      \"mfr\": \"IVE\",\n      \"finish\": \"630\",\n      \"notes\": \"\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 EA KICK PLATE 8400 10\\\" X 2\\\" LDW B-CS 630 IVE\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"RAIN DRIP\",\n      \"product\": \"142AA DW + 4\\\"\",\n      \"catalog_number\": \"142AA DW + 4\\\" (OMIT @ COVERED OPENINGS)\",\n      \"mfr\": \"ZER\",\n      \"finish\": \"AA\",\n      \"notes\": \"(OMIT @ COVERED OPENINGS)\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 EA RAIN DRIP 142AA DW + 4\\\" AA ZER (OMIT @ COVERED OPENINGS)\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"GASKETING\",\n      \"product\": \"328AA H & J\",\n      \"catalog_number\": \"328AA H & J\",\n      \"mfr\": \"ZER\",\n      \"finish\": \"AA\",\n      \"notes\": \"\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 SET GASKETING 328AA H & J AA ZER\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"DOOR SWEEP\",\n      \"product\": \"8198AA\",\n      \"catalog_number\": \"8198AA\",\n      \"mfr\": \"ZER\",\n      \"finish\": \"AA\",\n      \"notes\": \"\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 EA DOOR SWEEP 8198AA AA ZER\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"THRESHOLD\",\n      \"product\": \"65A\",\n      \"catalog_number\": \"65A\",\n      \"mfr\": \"ZER\",\n      \"finish\": \"A\",\n      \"notes\": \"\",\n      \"source_page\": 734,\n      \"raw_component_text\": \"1 EA THRESHOLD 65A A ZER\"\n    }\n  ],\n  \"notes\": \"\",\n  \"uncertainty_note\": null,\n  \"extraction_status\": \"complete\",\n  \"confidence\": \"high\",\n  \"source_format\": \"tabular with adjacent context\"\n}",
+      "validation_status": "valid",
+      "retry_count": 0,
+      "error_details": [],
+      "differences": [
+        "set-level description: deterministic=None; LLM='Hardware Group No. 715TW'",
+        "component count: deterministic=7; LLM=10",
+        "component description '_cylinder': deterministic count=0; LLM count=1",
+        "door sweep qty: deterministic=None; LLM=1",
+        "door sweep mfr: deterministic=None; LLM='ZER'",
+        "door sweep finish: deterministic=None; LLM='AA'",
+        "exit device qty: deterministic=None; LLM=1",
+        "exit device mfr: deterministic=None; LLM='SAR'",
+        "exit device finish: deterministic=None; LLM='LENGTH AS REQ'",
+        "gasketing qty: deterministic=None; LLM=1",
+        "gasketing mfr: deterministic=None; LLM='ZER'",
+        "gasketing finish: deterministic=None; LLM='AA'",
+        "hinge qty: deterministic=None; LLM=4",
+        "hinge mfr: deterministic=None; LLM='IVE'",
+        "hinge finish: deterministic=None; LLM='630'",
+        "kick plate qty: deterministic=None; LLM=1",
+        "kick plate mfr: deterministic=None; LLM='IVE'",
+        "kick plate finish: deterministic=None; LLM='630'",
+        "component description 'lfic permanent core': deterministic count=0; LLM count=1",
+        "component description 'rain drip': deterministic count=0; LLM count=1",
+        "surface closer qty: deterministic=None; LLM=1",
+        "surface closer finish: deterministic=None; LLM='BRKT, SPCR & PLATE AS REQ'",
+        "threshold qty: deterministic=None; LLM=1",
+        "threshold mfr: deterministic=None; LLM='ZER'",
+        "threshold finish: deterministic=None; LLM='A'"
+      ],
+      "layout_evidence": [
+        {
+          "page_number": 734,
+          "method": "PyMuPDF word bounding boxes grouped into visual lines and x-position cells",
+          "rows": [
+            {
+              "y": 72.4,
+              "cells": [
+                {
+                  "x_start": 72.0,
+                  "raw_text": "Hardware Group No. 715TW"
+                }
+              ],
+              "raw_text": "Hardware Group No. 715TW"
+            },
+            {
+              "y": 102.4,
+              "cells": [
+                {
+                  "column": "HEADER",
+                  "raw_text": "QTY DESCRIPTION CATALOG NUMBER FINISH MFR"
+                }
+              ]
+            },
+            {
+              "y": 115.8,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "4 EA"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "HINGE"
+                },
+                {
+                  "column": "CATALOG NUMBER",
+                  "raw_text": "5BB1HW 5 X 4.5 NRP"
+                },
+                {
+                  "column": "FINISH",
+                  "raw_text": "630"
+                },
+                {
+                  "column": "MFR",
+                  "raw_text": "IVE"
+                }
+              ],
+              "raw_text": "4 EA HINGE 5BB1HW 5 X 4.5 NRP 630 IVE"
+            },
+            {
+              "y": 129.4,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "1 EA"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "EXIT DEVICE"
+                },
+                {
+                  "column": "CATALOG NUMBER",
+                  "raw_text": "LD-43-TB-LC-8804 ETJ 26D/32D LENGTH AS REQ"
+                },
+                {
+                  "column": "FINISH",
+                  "raw_text": "626"
+                },
+                {
+                  "column": "MFR",
+                  "raw_text": "SAR"
+                }
+              ],
+              "raw_text": "1 EA EXIT DEVICE LD-43-TB-LC-8804 ETJ 26D/32D 626 SAR LENGTH AS REQ"
+            },
+            {
+              "y": 154.3,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "1 EA"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "_CYLINDER"
+                },
+                {
+                  "column": "CATALOG NUMBER",
+                  "raw_text": "AS REQUIRED"
+                },
+                {
+                  "column": "FINISH",
+                  "raw_text": "626"
+                },
+                {
+                  "column": "MFR",
+                  "raw_text": "SAR"
+                }
+              ],
+              "raw_text": "1 EA _CYLINDER AS REQUIRED 626 SAR"
+            },
+            {
+              "y": 167.9,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "1 EA"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "LFIC PERMANENT CORE"
+                },
+                {
+                  "column": "CATALOG NUMBER",
+                  "raw_text": "MATCH EXISTING KEY SYSTEM"
+                },
+                {
+                  "column": "FINISH",
+                  "raw_text": "626"
+                },
+                {
+                  "column": "MFR",
+                  "raw_text": "SAR"
+                }
+              ],
+              "raw_text": "1 EA LFIC PERMANENT CORE MATCH EXISTING KEY SYSTEM 626 SAR"
+            },
+            {
+              "y": 181.3,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "1 EA"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "SURFACE CLOSER"
+                },
+                {
+                  "column": "CATALOG NUMBER",
+                  "raw_text": "4040XP SCUSH X TBWMS X MTG BRKT, SPCR & PLATE AS REQ"
+                },
+                {
+                  "column": "FINISH",
+                  "raw_text": "689"
+                },
+                {
+                  "column": "MFR",
+                  "raw_text": "LCN"
+                }
+              ],
+              "raw_text": "1 EA SURFACE CLOSER 4040XP SCUSH X TBWMS X MTG 689 LCN BRKT, SPCR & PLATE AS REQ"
+            },
+            {
+              "y": 206.3,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "1 EA"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "KICK PLATE"
+                },
+                {
+                  "column": "CATALOG NUMBER",
+                  "raw_text": "8400 10\" X 2\" LDW B-CS"
+                },
+                {
+                  "column": "FINISH",
+                  "raw_text": "630"
+                },
+                {
+                  "column": "MFR",
+                  "raw_text": "IVE"
+                }
+              ],
+              "raw_text": "1 EA KICK PLATE 8400 10\" X 2\" LDW B-CS 630 IVE"
+            },
+            {
+              "y": 219.8,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "1 EA"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "RAIN DRIP"
+                },
+                {
+                  "column": "CATALOG NUMBER",
+                  "raw_text": "142AA DW + 4\" (OMIT @ COVERED OPENINGS)"
+                },
+                {
+                  "column": "FINISH",
+                  "raw_text": "AA"
+                },
+                {
+                  "column": "MFR",
+                  "raw_text": "ZER"
+                }
+              ],
+              "raw_text": "1 EA RAIN DRIP 142AA DW + 4\" AA ZER (OMIT @ COVERED OPENINGS)"
+            },
+            {
+              "y": 244.8,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "1 SET"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "GASKETING"
+                },
+                {
+                  "column": "CATALOG NUMBER",
+                  "raw_text": "328AA H & J"
+                },
+                {
+                  "column": "FINISH",
+                  "raw_text": "AA"
+                },
+                {
+                  "column": "MFR",
+                  "raw_text": "ZER"
+                }
+              ],
+              "raw_text": "1 SET GASKETING 328AA H & J AA ZER"
+            },
+            {
+              "y": 258.4,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "1 EA"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "DOOR SWEEP"
+                },
+                {
+                  "column": "CATALOG NUMBER",
+                  "raw_text": "8198AA"
+                },
+                {
+                  "column": "FINISH",
+                  "raw_text": "AA"
+                },
+                {
+                  "column": "MFR",
+                  "raw_text": "ZER"
+                }
+              ],
+              "raw_text": "1 EA DOOR SWEEP 8198AA AA ZER"
+            },
+            {
+              "y": 271.8,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "1 EA"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "THRESHOLD"
+                },
+                {
+                  "column": "CATALOG NUMBER",
+                  "raw_text": "65A"
+                },
+                {
+                  "column": "FINISH",
+                  "raw_text": "A"
+                },
+                {
+                  "column": "MFR",
+                  "raw_text": "ZER"
+                }
+              ],
+              "raw_text": "1 EA THRESHOLD 65A A ZER"
+            }
+          ],
+          "column_labels": [
+            "QTY",
+            "DESCRIPTION",
+            "CATALOG NUMBER",
+            "FINISH",
+            "MFR"
+          ],
+          "uncertainty": null
+        }
+      ]
+    },
+    {
+      "project": "Fresco Coding Challenge (Hardware Sets)/Valor Acres Building E/087100-DOOR-HARDWARE_Rev_2.pdf",
+      "set_id": "01",
+      "source_pdf": "Fresco Coding Challenge (Hardware Sets)/Valor Acres Building E/087100-DOOR-HARDWARE_Rev_2.pdf",
+      "source_pages": {
+        "6": "NEW BUILDINGS FOR VALOR ACRES -\n06/07/24\nBUILDING E\nBulletin #1 – 08/07/24\nBulletin #2 – 04/11/25\nBulletin #4 – 07/02/25\nDOOR HARDWARE\n087100 - 6\nA.\nBase Metals:  Furnish metals of a quality equal to or greater than that of specified door \nhardware units and BHMA A156.18 for finishes.  Do not furnish manufacturer's standard \nmaterials if different from specified standard.\nB.\nFasteners:  Phillips flat-head screws with finished heads to match surface of door \nhardware, unless otherwise indicated.  Provide steel machine or wood screws or steel \nthrough bolts for fire-rated applications.\nC.\nSpacers or Sex Bolts:  For through bolting of hollow metal doors.\nD.\nFasteners \nfor \nWood \nDoors: \n \nComply \nwith \nrequirements \nof \nDHI WDHS.2, \n\"Recommended Fasteners for Wood Doors.\"\nE.\nFinishes:  Comply with BHMA A156.18.\nPART 3 - EXECUTION\n3.1\nINSTALLATION\nA.\nExamine doors and frames for compliance with requirements for installation tolerances, \nlabeled fire door assembly construction, wall and floor construction, and other \nconditions affecting performance.  Examine roughing-in for electrical power systems to \nverify actual locations of wiring connections before electrified door hardware installation.\nB.\nSteel Door and Frame Preparation:  Comply with DHI A115 series.  Drill and tap doors \nand frames for surface-applied hardware according to SDI 107.\nC.\nWood Door Preparation:  Comply with DHI A115-W series.\nD.\nMounting Heights:  Comply with the following requirements, unless otherwise indicated:\n1.\nStandard Steel Doors and Frames:  DHI's \"Recommended Locations for \nArchitectural Hardware for Standard Steel Doors and Frames.\"\n2.\nCustom Steel Doors and Frames:  DHI's \"Recommended Locations for Builders' \nHardware for Custom Steel Doors and Frames.\"\n3.\nWood Doors:  DHI WDHS.3, \"Recommended Locations for Architectural Hardware \nfor Wood Flush Doors.\"\nE.\nAdjust and reinforce attachment substrates as necessary for proper installation and \noperation.  Drill and countersink units that are not factory prepared for anchorage \nfasteners.  Space fasteners and anchors according to industry standards.\n1.\nThresholds:  Set thresholds for exterior and acoustical doors in full bed of sealant \ncomplying with requirements specified in Division 7 Section \"Joint Sealants.\"\nF.\nAdjust door control devices to compensate for final operation of heating and ventilating \nequipment and to comply with accessibility requirements.",
+        "7": "NEW BUILDINGS FOR VALOR ACRES -\n06/07/24\nBUILDING E\nBulletin #1 – 08/07/24\nBulletin #2 – 04/11/25\nBulletin #4 – 07/02/25\nDOOR HARDWARE\n087100 - 7\n1.\nDoor Closers:  Adjust sweep period so that from an open position of 70 degrees, the \ndoor will take at least three seconds to move to a point 3 inches from the latch, \nmeasured to the leading edge of the door.\n3.2\nFIELD QUALITY CONTROL\nA.\nInspections:  Owner will engage a qualified independent Architectural Hardware \nConsultant to perform inspections and to prepare inspection reports.\n3.3\nDOOR HARDWARE SETS\nHardware Group No. 01: (Door U1 – Interior Unit Entry Swing Doors)\nEach To Have:\nQty\nDescription\n3\nEA \nBB HINGE\nBLK\n1\nEA\nENTRY SET \n(SCHLAGE LATITUDE \nLEVER STYLE)\nBLK\n1\nEA\nDEADBOLT W/ \nKEYFOB ACCESS\nBLK\n1\nEA\nOH STOP\nBLK\n1\nEA \nSURFACE CLOSER\nBLK\n1\nSET\nSEALS (SMOKE)\nBLK\n1\nEA \nDOOR VIEWER\nBLK\nHardware Group No. 02: (Door U3 – Exterior Unit Entries & Balconies Swing Doors)\nEach To Have:\nQty\nDescription\n3\nEA \nBB HINGE\nBLK\n1\nEA\nENTRY SET \n(SCHLAGE LATITUDE \nLEVER STYLE)\nBLK\n1\nEA\nDEADBOLT W/ \nKEYFOB ACCESS \n(EXTERIOR DOOR \nONLY)\nBLK\n1\nEA\nOH STOP\nBLK\n1\nEA \nSURFACE CLOSER\nBLK\n1\nSET\nSEALS (THERMAL)\nBLK\n1\nEA\nTHRESHOLD\nBLK\n1\nEA \nDOOR VIEWER \n(ENTRY DOORS \nONLY)\nBLK\nHardware Group No. 03: (Doors U5 & U6 – Bathrooms/ Bedrooms Swing Doors)",
+        "8": "NEW BUILDINGS FOR VALOR ACRES -\n06/07/24\nBUILDING E\nBulletin #1 – 08/07/24\nBulletin #2 – 04/11/25\nBulletin #4 – 07/02/25\nDOOR HARDWARE\n087100 - 8\nEach To Have:\nQty\nDescription\n3\nEA \nPB HINGE\nBLK\n1\nEA \nPRIVACY SET \n(SCHLAGE LATITUDE \nLEVER STYLE)\nBLK\n1\nEA \nWALL STOP\nBLK\nHardware Group No. 04: (Doors U7 & U9 – Closets/ Laundry Swing Doors)\nEach To Have:\nQty\nDescription\n2\nEA \nBB HINGE\nBLK\n1\nEA\nPASSAGE SET \n(SCHLAGE LATITUDE \nLEVER STYLE)\nBLK\n1\nEA\nHINGE STOP\nBLK\nHardware Group No. 05: (Doors U11 & U12 - Mechanical Closet Swing Doors)\nEach To Have:\nQty\nDescription\n3\nEA \nPB HINGE\nBLK\n1\nEA \nPASSAGE SET \n(SCHLAGE LATITUDE \nLEVER STYLE)\nBLK\n1\nEA\nHINGE STOP\nBLK\nHardware Group No. 06: (Door U2 – Balcony/Patio Swing Doors)\nEach To Have:\nQty\nDescription\n3\nEA\nHINGE BY DR \nSUPPLIER\nBLK\n1\nEA \nENTRY SET \n(SCHLAGE LATITUDE \nLEVER STYLE)\nBLK\n1\nEA\nSURFACE BOLTS\nBLK\n1\nEA \nWALL STOP\nBLK\n1\nEA\nDEADBOLT BY DR \nSUPPLIER\nBLK\nHardware Group No. 07: (Doors U13, U14 & U16 – Single Barn doors)\nEach To Have:\nQty\nDescription\n1\nSET \nBARN DR TRACK\nBLK\n2\nEA\nPULL (ACCESSIBLE \nWHERE REQUIRED)\nBLK\nHardware Group No. 08: (Doors U15 & U16 – Double Barn Doors)\nEach To Have:"
+      },
+      "source_excerpt": "Hardware Group No. 01: (Door U1 – Interior Unit Entry Swing Doors)\nEach To Have:\nQty\nDescription\n3\nEA \nBB HINGE\nBLK\n1\nEA\nENTRY SET \n(SCHLAGE LATITUDE \nLEVER STYLE)\nBLK\n1\nEA\nDEADBOLT W/ \nKEYFOB ACCESS\nBLK\n1\nEA\nOH STOP\nBLK\n1\nEA \nSURFACE CLOSER\nBLK\n1\nSET\nSEALS (SMOKE)\nBLK\n1\nEA \nDOOR VIEWER\nBLK",
+      "llm": {
+        "set_number": "01",
+        "description": "Door U1 – Interior Unit Entry Swing Doors",
+        "door_references": [
+          "U1"
+        ],
+        "source_pdf": "Fresco Coding Challenge (Hardware Sets)/Valor Acres Building E/087100-DOOR-HARDWARE_Rev_2.pdf",
+        "location": {
+          "pages": [
+            7
+          ],
+          "line_ranges": [
+            {
+              "page_number": 7,
+              "line_start": 20,
+              "line_end": 54
+            }
+          ]
+        },
+        "components": [
+          {
+            "qty": 3,
+            "description": "BB HINGE BLK",
+            "product": null,
+            "catalog_number": null,
+            "mfr": null,
+            "finish": "BLK",
+            "notes": null,
+            "source_page": 7,
+            "raw_component_text": "3 EA BB HINGE BLK"
+          },
+          {
+            "qty": null,
+            "description": "LEVER STYLE)",
+            "product": null,
+            "catalog_number": null,
+            "mfr": null,
+            "finish": "BLK",
+            "notes": null,
+            "source_page": 7,
+            "raw_component_text": "1 EA ENTRY SET (SCHLAGE LATITUDE LEVER STYLE) BLK"
+          },
+          {
+            "qty": null,
+            "description": "KEYFOB ACCESS",
+            "product": null,
+            "catalog_number": null,
+            "mfr": null,
+            "finish": "BLK",
+            "notes": null,
+            "source_page": 7,
+            "raw_component_text": "1 EA DEADBOLT W/ KEYFOB ACCESS BLK"
+          },
+          {
+            "qty": 1,
+            "description": "OH STOP BLK",
+            "product": null,
+            "catalog_number": null,
+            "mfr": null,
+            "finish": "BLK",
+            "notes": null,
+            "source_page": 7,
+            "raw_component_text": "1 EA OH STOP BLK"
+          },
+          {
+            "qty": 1,
+            "description": "SURFACE CLOSER BLK",
+            "product": null,
+            "catalog_number": null,
+            "mfr": null,
+            "finish": "BLK",
+            "notes": null,
+            "source_page": 7,
+            "raw_component_text": "1 EA SURFACE CLOSER BLK"
+          },
+          {
+            "qty": 1,
+            "description": "SEALS (SMOKE) BLK",
+            "product": null,
+            "catalog_number": null,
+            "mfr": null,
+            "finish": "BLK",
+            "notes": null,
+            "source_page": 7,
+            "raw_component_text": "1 SET SEALS (SMOKE) BLK"
+          },
+          {
+            "qty": 1,
+            "description": "DOOR VIEWER BLK",
+            "product": null,
+            "catalog_number": null,
+            "mfr": null,
+            "finish": "BLK",
+            "notes": null,
+            "source_page": 7,
+            "raw_component_text": "1 EA DOOR VIEWER BLK"
+          }
+        ],
+        "notes": null,
+        "uncertainty_note": null,
+        "extraction_status": "complete",
+        "confidence": "high",
+        "source_format": "textual table with positional layout"
+      },
+      "llm_status": "valid JSON and schema",
+      "attempts": [
+        {
+          "attempt": 1,
+          "max_tokens": 4000,
+          "validation_status": "valid",
+          "raw_response": "{\n  \"set_number\": \"01\",\n  \"description\": \"Hardware Group No. 01: (Door U1 – Interior Unit Entry Swing Doors)\",\n  \"door_references\": [\n    \"U1\"\n  ],\n  \"source_pdf\": \"Fresco Coding Challenge (Hardware Sets)/Valor Acres Building E/087100-DOOR-HARDWARE_Rev_2.pdf\",\n  \"location\": {\n    \"pages\": [\n      7\n    ],\n    \"line_ranges\": [\n      {\n        \"page_number\": 7,\n        \"line_start\": 20,\n        \"line_end\": 54\n      }\n    ]\n  },\n  \"components\": [\n    {\n      \"qty\": 3,\n      \"description\": \"BB HINGE\",\n      \"product\": null,\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": \"BLK\",\n      \"notes\": null,\n      \"source_page\": 7,\n      \"raw_component_text\": \"3 EA BB HINGE BLK\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"ENTRY SET (SCHLAGE LATITUDE LEVER STYLE)\",\n      \"product\": null,\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": \"BLK\",\n      \"notes\": null,\n      \"source_page\": 7,\n      \"raw_component_text\": \"1 EA ENTRY SET (SCHLAGE LATITUDE LEVER STYLE) BLK\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"DEADBOLT W/ KEYFOB ACCESS\",\n      \"product\": null,\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": \"BLK\",\n      \"notes\": null,\n      \"source_page\": 7,\n      \"raw_component_text\": \"1 EA DEADBOLT W/ KEYFOB ACCESS BLK\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"OH STOP\",\n      \"product\": null,\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": \"BLK\",\n      \"notes\": null,\n      \"source_page\": 7,\n      \"raw_component_text\": \"1 EA OH STOP BLK\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"SURFACE CLOSER\",\n      \"product\": null,\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": \"BLK\",\n      \"notes\": null,\n      \"source_page\": 7,\n      \"raw_component_text\": \"1 EA SURFACE CLOSER BLK\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"SEALS (SMOKE)\",\n      \"product\": null,\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": \"BLK\",\n      \"notes\": null,\n      \"source_page\": 7,\n      \"raw_component_text\": \"1 SET SEALS (SMOKE) BLK\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"DOOR VIEWER\",\n      \"product\": null,\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": \"BLK\",\n      \"notes\": null,\n      \"source_page\": 7,\n      \"raw_component_text\": \"1 EA DOOR VIEWER BLK\"\n    }\n  ],\n  \"notes\": null,\n  \"uncertainty_note\": null,\n  \"extraction_status\": \"complete\",\n  \"confidence\": \"high\",\n  \"source_format\": \"textual table with positional layout\"\n}",
+          "error": null
+        }
+      ],
+      "raw_model_output": "{\n  \"set_number\": \"01\",\n  \"description\": \"Hardware Group No. 01: (Door U1 – Interior Unit Entry Swing Doors)\",\n  \"door_references\": [\n    \"U1\"\n  ],\n  \"source_pdf\": \"Fresco Coding Challenge (Hardware Sets)/Valor Acres Building E/087100-DOOR-HARDWARE_Rev_2.pdf\",\n  \"location\": {\n    \"pages\": [\n      7\n    ],\n    \"line_ranges\": [\n      {\n        \"page_number\": 7,\n        \"line_start\": 20,\n        \"line_end\": 54\n      }\n    ]\n  },\n  \"components\": [\n    {\n      \"qty\": 3,\n      \"description\": \"BB HINGE\",\n      \"product\": null,\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": \"BLK\",\n      \"notes\": null,\n      \"source_page\": 7,\n      \"raw_component_text\": \"3 EA BB HINGE BLK\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"ENTRY SET (SCHLAGE LATITUDE LEVER STYLE)\",\n      \"product\": null,\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": \"BLK\",\n      \"notes\": null,\n      \"source_page\": 7,\n      \"raw_component_text\": \"1 EA ENTRY SET (SCHLAGE LATITUDE LEVER STYLE) BLK\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"DEADBOLT W/ KEYFOB ACCESS\",\n      \"product\": null,\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": \"BLK\",\n      \"notes\": null,\n      \"source_page\": 7,\n      \"raw_component_text\": \"1 EA DEADBOLT W/ KEYFOB ACCESS BLK\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"OH STOP\",\n      \"product\": null,\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": \"BLK\",\n      \"notes\": null,\n      \"source_page\": 7,\n      \"raw_component_text\": \"1 EA OH STOP BLK\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"SURFACE CLOSER\",\n      \"product\": null,\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": \"BLK\",\n      \"notes\": null,\n      \"source_page\": 7,\n      \"raw_component_text\": \"1 EA SURFACE CLOSER BLK\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"SEALS (SMOKE)\",\n      \"product\": null,\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": \"BLK\",\n      \"notes\": null,\n      \"source_page\": 7,\n      \"raw_component_text\": \"1 SET SEALS (SMOKE) BLK\"\n    },\n    {\n      \"qty\": 1,\n      \"description\": \"DOOR VIEWER\",\n      \"product\": null,\n      \"catalog_number\": null,\n      \"mfr\": null,\n      \"finish\": \"BLK\",\n      \"notes\": null,\n      \"source_page\": 7,\n      \"raw_component_text\": \"1 EA DOOR VIEWER BLK\"\n    }\n  ],\n  \"notes\": null,\n  \"uncertainty_note\": null,\n  \"extraction_status\": \"complete\",\n  \"confidence\": \"high\",\n  \"source_format\": \"textual table with positional layout\"\n}",
+      "validation_status": "valid",
+      "retry_count": 0,
+      "error_details": [],
+      "differences": [
+        "component count: deterministic=3; LLM=7",
+        "component description 'bb hinge': deterministic count=0; LLM count=1",
+        "component description 'deadbolt w/': deterministic count=1; LLM count=0",
+        "component description 'deadbolt w/ keyfob access': deterministic count=0; LLM count=1",
+        "component description 'door viewer': deterministic count=0; LLM count=1",
+        "component description 'entry set (schlage latitude lever style)': deterministic count=0; LLM count=1",
+        "component description 'lever style)': deterministic count=1; LLM count=0",
+        "component description 'oh stop': deterministic count=0; LLM count=1",
+        "component description 'seals (smoke)': deterministic count=0; LLM count=1",
+        "surface closer qty: deterministic=None; LLM=1",
+        "surface closer catalog_number: deterministic='1'; LLM=None",
+        "surface closer finish: deterministic=None; LLM='BLK'"
+      ],
+      "layout_evidence": [
+        {
+          "page_number": 7,
+          "method": "PyMuPDF word bounding boxes grouped into visual lines and x-position cells",
+          "rows": [
+            {
+              "y": 261.6,
+              "cells": [
+                {
+                  "x_start": 72.0,
+                  "raw_text": "Hardware Group No. 01: (Door U1 – Interior Unit Entry Swing Doors)"
+                }
+              ],
+              "raw_text": "Hardware Group No. 01: (Door U1 – Interior Unit Entry Swing Doors)"
+            },
+            {
+              "y": 274.3,
+              "cells": [
+                {
+                  "x_start": 72.0,
+                  "raw_text": "Each To Have:"
+                }
+              ],
+              "raw_text": "Each To Have:"
+            },
+            {
+              "y": 290.9,
+              "cells": [
+                {
+                  "column": "HEADER",
+                  "raw_text": "Qty Description"
+                }
+              ]
+            },
+            {
+              "y": 303.6,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "3 EA"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "BB HINGE BLK"
+                }
+              ],
+              "raw_text": "3 EA BB HINGE BLK"
+            },
+            {
+              "y": 316.2,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "1 EA"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "ENTRY SET BLK"
+                }
+              ],
+              "raw_text": "1 EA ENTRY SET BLK"
+            },
+            {
+              "y": 328.9,
+              "cells": [
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "(SCHLAGE LATITUDE"
+                }
+              ],
+              "raw_text": "(SCHLAGE LATITUDE"
+            },
+            {
+              "y": 341.5,
+              "cells": [
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "LEVER STYLE)"
+                }
+              ],
+              "raw_text": "LEVER STYLE)"
+            },
+            {
+              "y": 354.2,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "1 EA"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "DEADBOLT W/ BLK"
+                }
+              ],
+              "raw_text": "1 EA DEADBOLT W/ BLK"
+            },
+            {
+              "y": 366.8,
+              "cells": [
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "KEYFOB ACCESS"
+                }
+              ],
+              "raw_text": "KEYFOB ACCESS"
+            },
+            {
+              "y": 379.5,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "1 EA"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "OH STOP BLK"
+                }
+              ],
+              "raw_text": "1 EA OH STOP BLK"
+            },
+            {
+              "y": 392.1,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "1 EA"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "SURFACE CLOSER BLK"
+                }
+              ],
+              "raw_text": "1 EA SURFACE CLOSER BLK"
+            },
+            {
+              "y": 404.8,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "1 SET"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "SEALS (SMOKE) BLK"
+                }
+              ],
+              "raw_text": "1 SET SEALS (SMOKE) BLK"
+            },
+            {
+              "y": 417.4,
+              "cells": [
+                {
+                  "column": "QTY",
+                  "raw_text": "1 EA"
+                },
+                {
+                  "column": "DESCRIPTION",
+                  "raw_text": "DOOR VIEWER BLK"
+                }
+              ],
+              "raw_text": "1 EA DOOR VIEWER BLK"
+            }
+          ],
+          "column_labels": [
+            "QTY",
+            "DESCRIPTION"
+          ],
+          "uncertainty": null
+        }
+      ]
+    }
+  ]
+}

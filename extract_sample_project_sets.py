@@ -1,8 +1,8 @@
-"""Create structured hardware-set JSON for two representative projects.
+"""Create deterministic structured records for two supported schedule formats.
 
-This is a learning-stage prototype for the JC Ryan 2 list format and the
-Roselle Public Library table format. It deliberately keeps source text and
-locations so the heuristic field mapping can be audited.
+This supporting parser handles JC Ryan 2 section/list schedules and Roselle
+Public Library tables. It preserves source text and locations for review and
+can provide a deterministic reference alongside the local LLM extraction.
 """
 
 import argparse
@@ -281,7 +281,7 @@ def write_evaluation(projects, output_path):
         report.write("# Sample structured hardware-set extraction evaluation\n\n")
         report.write("## Scope\n\n")
         report.write(
-            "This prototype produces structured JSON for two representative inputs: "
+            "This deterministic parser produces structured JSON for two supported inputs: "
             "JC Ryan 2's section/list schedule and Roselle Public Library's ruled table. "
             "It is not a full-dataset accuracy claim.\n\n"
         )

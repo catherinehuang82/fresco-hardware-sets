@@ -1,8 +1,9 @@
-"""Run a separate, source-oriented QA pass over representative MVP outputs.
+"""Audit representative LLM extraction records against their source PDFs.
 
-This is intentionally a small audit helper, not a scoring benchmark. It reads
-the original PDFs, the saved segmentation candidates, and one representative
-LLM extraction per segmented PDF. It never edits extraction records.
+This review stage reads the PDFs, saved segmentation candidates, and one
+representative extraction per segmented PDF. It writes source-based findings
+separately and never changes the extraction records. Its heuristic checks are
+not a labeled benchmark and do not establish corpus-wide accuracy.
 """
 
 import argparse

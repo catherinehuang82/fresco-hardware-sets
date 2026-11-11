@@ -1,9 +1,13 @@
-"""Run a small, local Qwen extraction experiment on six hardware sets.
+"""Extract structured hardware-set records from prepared regions with local Qwen.
 
-This is an experiment runner, not a replacement for the existing pipeline. It
-reuses hardware_sets.jsonl for set regions and the existing deterministic list
-parser for a comparison baseline, then saves source context, model JSON, and a
-human-readable comparison report.
+This module is the LLM-based component-extraction stage. It reads candidate
+regions from ``hardware_sets.jsonl``, adds source-page context and available PDF
+table geometry, requests structured component data from the local model, and
+validates the response with bounded retries. It saves model output together
+with source and validation details. The deterministic parser is also run to
+provide a side-by-side reference for review; it does not replace the LLM result.
+The checked-in sample configuration contains six sets, not every set in the
+archive.
 """
 
 import argparse
@@ -215,7 +219,7 @@ def extract_layout_evidence(archive, pdf_filename, target_pages, set_id):
 
 
 def make_baseline(project, segment):
-    """Apply the existing deterministic line parser to this segment as a baseline."""
+    """Build a deterministic reference record for side-by-side review."""
     description = None
     heading = segment.get("heading") or ""
     if ":" in heading:
@@ -667,7 +671,7 @@ def compare_records(baseline, llm):
 def write_report(samples, output_path):
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8") as report:
-        report.write("# Local Qwen hardware-set MVP: six-sample run\n\n")
+        report.write("# Local Qwen hardware-set extraction: six configured samples\n\n")
         report.write(
             "JSON/schema validity means the response parsed and met the required shape; it does "
             "not establish factual correctness or completeness. Deterministic-parser disagreements "

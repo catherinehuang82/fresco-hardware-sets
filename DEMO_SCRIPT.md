@@ -23,7 +23,7 @@ Open each PDF in Preview as you reach its segment and navigate to the stated PDF
 ## Walkthrough and narration
 
 **0:00–0:25 — Goal and pipeline**  
-Show `data.zip`, then the flow in `SYSTEM_DESIGN.md`. Say: “PyMuPDF reads PDF pages, heuristics find likely hardware sections and set regions, and a local Qwen experiment structures selected sets. The saved results include source-page references and raw text for review.”
+Show `data.zip`, then the flow in `SYSTEM_DESIGN.md`. Say: “PyMuPDF reads PDF pages, heuristics find likely hardware sections and set regions, and a local Qwen model turns selected regions into structured component records. The saved results include source-page references and source text for review.”
 
 **0:25–1:05 — SAT TDP, group 715TW**  
 Open the first PDF:
